@@ -1,0 +1,46 @@
+title:              Company name goes here
+
+# Versioning
+current_version: 1.1.0
+
+author:
+  name:             Fernando Monteiro
+  email:            fernando@newaeonweb.com.br
+  github:           newaeonweb
+  twitter:          newaeonweb
+
+# Dependencies
+markdown:           kramdown
+highlighter:        pygments
+
+# Permalinks
+permalink:          pretty
+
+# Server
+source:             ./source
+destination:        ./static
+
+port:               9000
+baseurl:            ""
+url:
+
+# exclude this stuff when building the static site
+exclude:            ["sass","scss",".gitignore","README.md","config.codekit"]
+
+
+## CUSTOM VARS
+
+#ga_id:             ##-########-###
+site_name:          Site name goes here
+site_description:   Simple company description.
+site_copyright:     © All Rights Reserved.
+site_url:           http://www.newaeonweb.com.br
+site_email:         contato@domain.com.br
+site_phone:         (555) 555-1234
+
+
+
+# We specify the directory for Jekyll so we can use @imports.
+sass:
+  sass_dir:          _scss
+  style:            :compressed

@@ -1,0 +1,28 @@
+{% include header.html %}
+      <main class="main indicacoes">
+          <section class="img-header img-indicacoes">
+              <div class="container">
+                  <div class="text-heading animated bounceInRight">
+                      <h1>Principais Indicações</h1>
+                  </div>
+              </div>
+          </section>
+          <section class="content">
+              <div class="container">
+                  <div class="row">
+                      <div class="col-lg-9">
+                          <article>
+                              <h1>{{ page.title }}</h1>
+                              <div class="text-justify">
+                                  {{ content }}
+                              </div>
+                          </article>
+                      </div>
+                      <div class="col-lg-3">
+                          {% include artigos-side.html %}
+                      </div>
+                  </div>
+              </div>
+          </section>
+      </main>
+{% include footer.html %}
