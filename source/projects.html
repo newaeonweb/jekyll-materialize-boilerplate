@@ -4,177 +4,46 @@ permalink: /projects/
 title: 'Opem Source Porjects'
 description: Featured OpenSource Projects
 tags: []
+products:
+ - top-level: Responsive Boilerplate
+   image: http://placehold.it/560x350
+   description: A lightweight (2kb) micro-library, elegant & minimalistic CSS3 grid system, made with only three main classes and 12 columns. It`s very easy to use and understand, pre-packed with some extra CSS helpers for mobile devices.
+   gitlink: Github
+   demolink: Demo
+ - top-level: Frontend Boilerplate
+   image: http://placehold.it/560x350
+   description: An easy starting point using Grunt and Bower. It is designed to give you a quick and organized way to start developing web apps with best practices in mind.
+   gitlink:
+   demolink:
 ---
 
 <main class="main project">
-        <div class="container">
-            <div class="animated bounceInRight">
-                <h1>Open Source Projects</h1>
-                <p>All projects receive frequent updates, improvements and bug fixes.</p>
-            </div>
+    <div class="container">
+        <div class="animated bounceInRight">
+            <h1>Open Source Projects</h1>
+            <p>All projects receive frequent updates, improvements and bug fixes.</p>
+        </div>
 
-            <section class="project-card">
-                <div class="row">
-                    <div class="col s6">
-                        <div class="project-item">
-                            <img class="responsive-img" src="http://placehold.it/560x350" alt="" />
-                            <h1>Responsive Boilerplate <span class="pull-right"> <em id="rb"></em></span></h1>
-
-                            <p class="text-justify">
-                                A lightweight (2kb) micro-library, elegant & minimalistic CSS3 grid system, made with only three main classes and 12 columns. It`s very easy to use and understand, pre-packed with some extra CSS helpers for mobile devices.
-                            </p>
-                            <div class="btn-group btn-group-justified" role="group">
-                                <a href="#" class="btn"><span class="fa fa-github"></span> Github</a>
-                                <a href="#" class="btn"><span class="fa fa-cloud"></span> DEMO</a>
-                            </div>
+        <section class="project-card">
+            <div class="row">
+                {% for product in page.products %}
+                <div class="col m6">
+                    <div class="card">
+                        <div class="card-image waves-effect waves-block waves-light">
+                            <img class="activator responsive-img" src="{{ product.image }}" alt="{{ product.top-level }} Project Image">
                         </div>
-                    </div>
-                    <div class="col s6">
-                        <div class="project-item">
-                            <img class="responsive-img" src="http://placehold.it/560x350" alt="" />
-                            <h1>Front-end Boilerplate <span class="pull-right"> <em id="fb"></em></span></h1>
-
-                            <p class="text-justify">
-                                Baseline scaffold to build web applications.
-                                An easy starting point using: Grunt and Bower. It is designed to give you a quick and organized way to start developing web apps with best practices in mind.
-                            </p>
-                            <div class="btn-group btn-group-justified" role="group">
-                                <a href="#" class="btn"><span class="fa fa-github"></span> Github</a>
-                                <a href="#" class="btn"><span class="fa fa-cloud"></span> DEMO</a>
-                            </div>
+                        <div class="card-content">
+                            <span class="card-title activator grey-text text-darken-4">{{ product.top-level }}<i class="material-icons right">more_vert</i></span>
+                            <p><a href="{{ product.gitlink }}" target="_blank" title="View on Github">Gitihub</a> | <a href="{{ product.demolink }}" target="_blank" title="View Demo Site">Demo</a></p>
+                        </div>
+                        <div class="card-reveal">
+                            <span class="card-title grey-text text-darken-4">{{ product.top-level }}<i class="material-icons right">close</i></span>
+                            <p>{{ product.description }}</p>
                         </div>
                     </div>
                 </div>
-                <div class="row">
-                    <div class="col s6">
-                        <div class="project-item">
-                            <img class="responsive-img" src="http://placehold.it/560x350" alt="" />
-                            <h1>Generator-angm <span class="pull-right"> <em id="rb"></em></span></h1>
-
-                            <p class="text-justify">
-                                Simple Yeoman generator to building modular AngularJS applications following the best practices of AngularJS development.
-                            </p>
-                            <div class="btn-group btn-group-justified" role="group">
-                                <a href="#" class="btn"><span class="fa fa-github"></span> Github</a>
-                                <a href="#" class="btn"><span class="fa fa-cloud"></span> DEMO</a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col s6">
-                        <div class="project-item">
-                            <img class="responsive-img" src="http://placehold.it/560x350" alt="" />
-                            <h1>Express-API-Boilerplate <span class="pull-right"> <em id="fb"></em></span></h1>
-
-                            <p class="text-justify">
-                                Baseline Express API to build Restful applications using Node.JS and MongoDB.
-                                Including a Docker iamge for Node and Mongo.
-                            </p>
-                            <div class="btn-group btn-group-justified" role="group">
-                                <a href="#" class="btn"><span class="fa fa-github"></span> Github</a>
-                                <a href="#" class="btn"><span class="fa fa-cloud"></span> DEMO</a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col s6">
-                        <div class="project-item">
-                            <img class="responsive-img" src="http://placehold.it/560x350" alt="" />
-                            <h1>Responsive Aeon (New Layout) <span class="pull-right"> <em id="rb"></em></span></h1>
-
-                            <p class="text-justify">
-                                Simple CSS Responsive Grid
-                                Lightweight Responsive CSS Grid System, build to be Simple Fast and Intuitive, only 1kb minified.
-                            </p>
-                            <div class="btn-group btn-group-justified" role="group">
-                                <a href="#" class="btn"><span class="fa fa-github"></span> Github</a>
-                                <a href="#" class="btn"><span class="fa fa-cloud"></span> DEMO</a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col s6">
-                        <div class="project-item">
-                            <img class="responsive-img" src="http://placehold.it/560x350" alt="" />
-                            <h1>Rb-UI - Interface Components <span class="pull-right"> <em id="fb"></em></span></h1>
-
-                            <p class="text-justify">
-                                Baseline scaffold to build web applications with Grunt.js.
-                                Frontend Boilerplate is a simple Gruntfile and directory structure for an easy starting point with web applications using: Grunt and Bower. It is designed to give you a quick and organized way to start developing web apps with best practices in mind.
-                            </p>
-                            <div class="btn-group btn-group-justified" role="group">
-                                <a href="#" class="btn"><span class="fa fa-github"></span> Github</a>
-                                <a href="#" class="btn"><span class="fa fa-cloud"></span> DEMO</a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col s6">
-                        <div class="project-item">
-                            <img class="responsive-img" src="http://placehold.it/560x350" alt="" />
-                            <h1>SASa grid and typo <span class="pull-right"> <em id="rb"></em></span></h1>
-
-                            <p class="text-justify">
-                                Simple CSS Responsive Grid
-                                Lightweight Responsive CSS Grid System, build to be Simple Fast and Intuitive, only 1kb minified.
-                            </p>
-                            <div class="btn-group btn-group-justified" role="group">
-                                <a href="#" class="btn"><span class="fa fa-github"></span> Github</a>
-                                <a href="#" class="btn"><span class="fa fa-cloud"></span> DEMO</a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col s6">
-                        <div class="project-item">
-                            <img class="responsive-img" src="http://placehold.it/560x350" alt="" />
-                            <h1>SASa Jekyll Theme <span class="pull-right"> <em id="fb"></em></span></h1>
-
-                            <p class="text-justify">
-                                Baseline scaffold to build web applications with Grunt.js.
-                                Frontend Boilerplate is a simple Gruntfile and directory structure for an easy starting point with web applications using: Grunt and Bower. It is designed to give you a quick and organized way to start developing web apps with best practices in mind.
-                            </p>
-                            <div class="btn-group btn-group-justified" role="group">
-                                <a href="#" class="btn"><span class="fa fa-github"></span> Github</a>
-                                <a href="#" class="btn"><span class="fa fa-cloud"></span> DEMO</a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col s6">
-                        <div class="project-item">
-                            <img class="responsive-img" src="http://placehold.it/560x350" alt="" />
-                            <h1>KendoUI - AMD <span class="pull-right"> <em id="rb"></em></span></h1>
-
-                            <p class="text-justify">
-                                Simple CSS Responsive Grid
-                                Lightweight Responsive CSS Grid System, build to be Simple Fast and Intuitive, only 1kb minified.
-                            </p>
-                            <div class="btn-group btn-group-justified" role="group">
-                                <a href="#" class="btn"><span class="fa fa-github"></span> Github</a>
-                                <a href="#" class="btn"><span class="fa fa-cloud"></span> DEMO</a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col s6">
-                        <div class="project-item">
-                            <img class="responsive-img" src="http://placehold.it/560x350" alt="" />
-                            <h1>Dependency jQuery plugin <span class="pull-right"> <em id="fb"></em></span></h1>
-
-                            <p class="text-justify">
-                                Baseline scaffold to build web applications with Grunt.js.
-                                Frontend Boilerplate is a simple Gruntfile and directory structure for an easy starting point with web applications using: Grunt and Bower. It is designed to give you a quick and organized way to start developing web apps with best practices in mind.
-                            </p>
-                            <div class="btn-group btn-group-justified" role="group">
-                                <a href="#" class="btn"><span class="fa fa-github"></span> Github</a>
-                                <a href="#" class="btn"><span class="fa fa-cloud"></span> DEMO</a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-
+                {% endfor %}
             </section>
         </div>
 
-</main>
+    </main>

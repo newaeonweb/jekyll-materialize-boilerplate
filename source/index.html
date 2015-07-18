@@ -2,10 +2,10 @@
 layout: default
 ---
 <div class="section no-pad-bot" id="index-banner">
-    <div class="container">
+    <div class="container center">
         <br><br>
         <img class="center-align" src="http://www.newaeonweb.com.br/images/bio-photo.jpg" alt="{{site.author.name}}" />
-        <h1 class="header center blue-text">Fernando Monteiro</h1>
+        <h1 class="header center blue-text ">Fernando Monteiro</h1>
         <div class="row center">
             <h5 class="header col s12 light">Front end Enginner</h5>
         </div>
@@ -15,28 +15,18 @@ layout: default
 
 <div class="container">
     <div class="section">
-        <!--   Icon Section   -->
         <div class="row">
-            <div class="col s12">
-                <div class="icon-block">
-                    <h4 class="center grey-text lighten-1">Latest from the articles</h4>
-                    <p class="center light">For sure i'm very busy, but i love to write and teaching people.</p>
+            <div class="col s12 ">
+                <h5 class="grey-text lighten-1 center">Latest from articles</h5>
+                <div class="collection">
+                    {% for post in site.posts limit:3 %}
+                    <a href="{{ site.url }}{{ post.url }}" class="collection-item"><time datetime="{{ post.date | date_to_string }}">{{ post.date | date: "%m/%d/%Y" }}</time> - {{ post.title }}</a>
+                    {% endfor %}
                 </div>
+
+
             </div>
         </div>
-
-      <div class="row">
-        <div class="col s12 ">
-            {% for post in site.posts limit:3 %}
-            <ul class="collection">
-              <li class="collection-item"><time datetime="{{ post.date | date_to_string }}">{{ post.date | date: "%m/%d/%Y" }}</time> &raquo; {{ post.title }}
-              <p>{{post.description}}</p>
-              <a href="{{ site.url }}{{ post.url }}">Read full article</a>
-              </li>
-            </ul>
-             {% endfor %}
-        </div>
-      </div>
 
 
     </div>
