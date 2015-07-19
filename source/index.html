@@ -19,7 +19,7 @@ layout: default
             <div class="col s12 ">
                 <h5 class="grey-text lighten-1 center">Latest from articles</h5>
                 <div class="collection">
-                    {% for post in site.posts limit:3 %}
+                    {% for post in site.posts limit:5 %}
                     <a href="{{ site.url }}{{ post.url }}" class="collection-item"><time datetime="{{ post.date | date_to_string }}">{{ post.date | date: "%m/%d/%Y" }}</time> - {{ post.title }}</a>
                     {% endfor %}
                 </div>
