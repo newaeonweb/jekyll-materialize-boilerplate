@@ -7,7 +7,7 @@ tags: [Front-end]
 comments: true
 share: true
 ---
-
+# Ferramentas para webdesigners parte II.
 Mais um post da serie para webdesigners, desta vez não é uma ferramenta em si, mas a utilidade desta dica vale muito, principalmente quando trabalhamos em equipes multidisciplinares e cada desenvolvedor utiliza um editor de código.
 O que é muito comun, Visual Studio, Eclipse, Netbeans, sim eu sei que estes são mais do que editores, são IDEs completas e cada uma tem a sua configuração de identação e espaço.
 
@@ -35,5 +35,3 @@ Segue um exemplo de como utiliza-lo:
 
 Pronto, basta nomear este arquivo como `editorconfig`, coloca-lo na pasta raiz do seu projeto e installar o plugin para sua respectiva IDE ou Editor de texto.
 Desta maneira toda vez que voce abrir o editor, o plugin busca este arquivo e obedece o padrão definido nele.
-
-

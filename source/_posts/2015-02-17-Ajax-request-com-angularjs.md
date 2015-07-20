@@ -8,18 +8,14 @@ comments: true
 share: true
 ---
 
-# AngularJS não utiliza jQuery!
-
-> Para desenvolver com *AngularJS*, voce deve esquecer o jQuery.
-
-### Esquecendo o jQuery.
-
+# Esquecendo o jQuery.
 Ao utilizar AngularJS pela primeira vez, é comum pensar como o jQuery faz a coisas, ou seja tudo muito simples e facíl, no AngularJS isso também é verdade. Porém existem algumas diferenças quando pensamos em manipulação do DOM.
 
 Muitos amigos me perguntam como utilizar jQuery dentro de aplicações AngularJS, a partir dai tive a ideia de escrever este post e ilustrar uma requisição Ajax, utilizando $http do AngularJS ou invés do $.ajax().
 
-### Requisição Ajax.
+> Para desenvolver com *AngularJS*, voce deve esquecer o jQuery.
 
+# Requisição Ajax.
 Vamos lá, primeiramente, para manipular o DOM com AngularJS, devemos utilizar Directives. E isso não quer dizer que voce vai escrever o seu jQuery dentro da Directiva, mas isso é assunto para um próximo post, por hora, vamos nos ater aos fatos.
 
 Este é um exemplo básico de como utilizar a requisição Ajax no AngularJS.

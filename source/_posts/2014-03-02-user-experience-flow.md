@@ -9,14 +9,13 @@ share: true
 ---
 
 # Fluxo Básico para um bom trabalho de User Experience (UX).
-
 Muito se fala sobre experiência do usuário (UX), wireframes, protótipos, testes A/B e por ai vai, mas o passo inicial e mais importante raramente é mencionado, por isso decidi escrever este artigo e demonstrar um pouco do básico, que envolve muita coisa antes de iniciar um wireframe propriamente dito.
 
 Este é o fluxo básico que eu adoto em meus projetos, podendo variar de acordo com o tamanho/alvo/finalidade, mas no geral pode se adaptar a qualquer fluxo.
 
 > O Design da experiência do usuário começa muito antes do wireframe.
 
-Antes de iniciarmos os wireframes, precisamos ter uma ideia abrangente do projeto, entender o escopo e identificar as necessidades do cliente e de seu usuário, claro que em um primeiro momento não teremos todas as informações necessarias, mas é muito importante conseguir identificar todos os pontos abaixo: 
+Antes de iniciarmos os wireframes, precisamos ter uma ideia abrangente do projeto, entender o escopo e identificar as necessidades do cliente e de seu usuário, claro que em um primeiro momento não teremos todas as informações necessarias, mas é muito importante conseguir identificar todos os pontos abaixo:
 
 ### 1. Requisitos do Negócio.
 
@@ -32,7 +31,7 @@ Qual a tecnologia que deve ser utilizada?, qual plataforma?, qual a linguagem? e
 
 ### 4. Requisitos do Usuário.
 
-Qual o publico alvo do produto?, qual a faixa etaria dos usuários?, qual problema deve ser resolvido? 
+Qual o publico alvo do produto?, qual a faixa etaria dos usuários?, qual problema deve ser resolvido?
 
 > Lembre-se você não é usuário do sistema, estes são aqueles que realmente utilizarão o sistema.
 

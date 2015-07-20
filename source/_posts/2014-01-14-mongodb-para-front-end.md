@@ -3,11 +3,11 @@ layout: post
 title: Mongodb para Front-end Developers.
 description: "Porque Mongodb pode ser útil para o profissional Front-end."
 category: articles
-tags: [Front-end]
+tags: [Mongodb]
 comments: true
 share: true
 ---
-
+# Porque Mongodb pode ser útil para o profissional Front-end?
 Este é o primeiro post do ano e também o primeiro que não esta ligado ao desenvolvimento front-end aparentemente, digo isso por que apesar de banco de dados estar longe da realidade do front-end, o Mongodb esta muito próximo, e sabe porque?
 
 A resposta é JavaScript!
@@ -123,7 +123,7 @@ Para atualizar:
 	C:\>db.bandas.update({banda: "Metallica"}, {$set: {estilo: "Thrash Metal"}})
 {% endhighlight %}
 
-Aqui atualizamos a banda e incluimos mais um campo, o estilo. 
+Aqui atualizamos a banda e incluimos mais um campo, o estilo.
 Caso seja necessario remove-lo podemos utilizar o seguinte comando:
 
 {% highlight shell-session %}
@@ -146,4 +146,3 @@ Se a intenção for deletar a coleção inteira, utilize:
 
 Lembre-se sempre de utilizar o comando Help(), para base de dados e coleções, ele sempre é útil.
 Com isso, finalizamos o básico, mas você já tem um rumo a seguir, pesquise por coisas como indexes, explain(), BSON, drivers e por ai vai.
-

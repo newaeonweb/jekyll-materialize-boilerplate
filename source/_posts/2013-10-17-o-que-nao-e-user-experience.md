@@ -1,7 +1,7 @@
 ---
 layout: post
 title: O que não é User Experience.
-description: "Alguns fatos interessantes sobre o que não faz parte do experiência do usuário."
+description: "Alguns fatos interessantes sobre o que não faz parte da experiência do usuário."
 modified: 2013-10-17
 category: articles
 tags: [UX]
@@ -9,7 +9,6 @@ comments: true
 ---
 
 ## O que não é User Experience?
-
 Hoje em uma conversa com alguns amigos, saiu o assunto sobre User Experience e me lembrei deste artigo que eu hávia escrito em meu blog em 2010, e resolvi ativa-lo novamente.
 
 User Experience não é sinônimo de:
@@ -55,7 +54,7 @@ Isso é real, e em breve vai se tornar realidade por aqui também.
 
 User Experience é incorporar o resultado dos testes e o feedback dos usuarios na evolução do design da experiência do usuário, não no design propriamente dito, é evoluir juntamente com o publico alvo da aplicação ou ferramenta, consolidar estas informações e analises e ai sim iniciar o processo de design.
 
-Isso tudo geralmente é feito em equipe, apesar de parecer um processo lento, é muito dinâmico e pode ser feito de 2 a 3 semanas, chamado tambem de LEAN UX (Em outro post falo mais sobre isso). 
+Isso tudo geralmente é feito em equipe, apesar de parecer um processo lento, é muito dinâmico e pode ser feito de 2 a 3 semanas, chamado tambem de LEAN UX (Em outro post falo mais sobre isso).
 
 Vale lembrar também que um design intuitivo não é prever o futuro e descobrir onde é que o botão de comprar vai ajudar o seu usuário. As pesquisas e testes são a base de qualquer processo de User Experience.
 

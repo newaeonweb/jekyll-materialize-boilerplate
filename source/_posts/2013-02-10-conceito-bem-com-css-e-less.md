@@ -4,7 +4,7 @@ title: Utilizando o conceito BEM com LESSCSS.
 description: "Exemplos práticos da utilização do conceito BEM, block element, modifier com LESSCESS."
 modified: 2013-10-14
 category: articles
-tags: [LESS, CSS]
+tags: [Front-end]
 image:
   feature: bem.jpg
   credit: Fernando Monteiro
@@ -13,10 +13,7 @@ comments: true
 share: true
 ---
 
-## Conceito BEM (Block, Element, Modifier) = Bloco, elemento, modificador.
-
-### Entendendo.
-
+# Conceito BEM (Block, Element, Modifier) = Bloco, elemento, modificador.
 É uma metodologia de desenvolvimento, criado inicialmente pela empresa Yandex, companhia líder de internet na Russia (Domina 60% do mercado), lançado oficialmente em 2009 e disponibilizado como OpenSopurce em 2010. Porém os seu ínicio foi em 2005.
 
 Melhorando esta definição e aplicando ao nosso nixo de desenvolvimento, podemos dizer que é uma nova maneira diferente de escrever código **CSS** modular para componentes de interface fazendo uma analogia ao desenvolvimento de software **Orientado a Objeto**, mas que pode ser aplicado a qualquer linguagem de desenvolvimento.
@@ -35,7 +32,7 @@ Este modelo dita que todos os componentes devem se comportar de maneira individu
 
 Agora que já vimos uma pequena introdução, podemos ver alguns exemplos básicos, eu particularmente utilizo um forma de escrever que mais se adapta a minha necessidade, e o mais legal é que você pode escolher a que se adapta a sua.
 
-> Classe **CSS** 
+> Classe **CSS**
 
 {% highlight css %}
 	.b-menu {}
@@ -54,7 +51,7 @@ Agora que já vimos uma pequena introdução, podemos ver alguns exemplos básic
 {% endhighlight %}
 
 A modularização fica muito clara onde nossa classe .b-menu guarda a estrutura do bloco, a classe .menu-item ilustra os itens que compoem o bloco **menu** e o modificador _small aplica um tamanho de fonte menor aos elementos do menu.
-Desta maneira podemos utilizar estes blocos em qualquer lugar da página, aplicando diferentes modificadores. 
+Desta maneira podemos utilizar estes blocos em qualquer lugar da página, aplicando diferentes modificadores.
 
 Imagine uma página com dois menus um no topo e outro no rodapé, poderiamos acrescentar apenas um modificador de estrutura para o menu do rodapé:
 
@@ -97,4 +94,3 @@ Agora pense em duas equipes escrevendo e compartilhando arquivos em mais de uma 
 
 >Agore pense em equipes multi-diciplinares onde não existe um desenvolvedor front-end em tempo intregral.
 Conseguiu imaginar como ficaria este CSS?
-

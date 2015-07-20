@@ -11,7 +11,7 @@ image:
 comments: true
 share: true
 ---
-
+#Front-end tools for Webdesigners.
 Todo webdesigner passa por um momento de transição em sua carreira e precisa se atualizar ou evoluir, e o desenvolvimento front-end é uma destas opções, porém nem todo designer tem um conhecimento mesmo que básico em programação, então a primeira coisa que você deve fazer para facilitar esta migração é entender quais as ferramentas existentes e o que você precisa para dominar todas elas, ou pelo menos uma parte.
 
 > Este não pretende ser um guia completo, mas apenas um direcionamento.
@@ -55,7 +55,7 @@ A primeira vista é desconfortável e pode parecer dificíl aprender, mas existe
         margin: 0;
         padding: 0 $tablet-padding;
       }
-    
+
       @include respond-to(mobile) {
         margin: 0;
         padding: 0 $mobile-padding;
@@ -144,7 +144,7 @@ Para falar de frameworks primeiro precisamos entender e saber difereciar o que �
 
 São conjuntos de componentes de interface modulares geralmente em CSS e HTML e com algumas funcionalidades comuns em JavaScript, como: tabs, sliders, modals, popovers etc...
 
-Alguns exemplos são: Twitter Bootstrap, PureCSS, Foundation entre outros. 
+Alguns exemplos são: Twitter Bootstrap, PureCSS, Foundation entre outros.
 
 ## Framework MVC
 
@@ -161,7 +161,3 @@ São códigos que atendem a uma simples tarefa, como o jQuery e Zepto.js para ma
 Esse foi um pequeno exemplo do são frameworks, o assunto é muito mais abrangente e complexo, mas esta é uma visão que coloca você no caminho certo.
 
 No próximo post veremos, Gerenciadores de Tarefas, Gerenciadores de Componentes, Controle de Versão de códigos e CMS.
-
-
-
-

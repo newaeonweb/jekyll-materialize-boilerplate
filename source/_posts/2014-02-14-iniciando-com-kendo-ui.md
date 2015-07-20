@@ -3,26 +3,22 @@ layout: post
 title: Conhecendo Kendoui.
 description: "Introdução ao framework kendoui."
 category: articles
-tags: [Front-end, KendoUi]
+tags: [Front-end]
 comments: true
 share: true
 ---
 
-# Introdução ao [Kendo UI](http://www.kendoui.com).
-
-* O que é?
-
-MVVM - Framework
-
+# Introdução ao [Kendo UI](http://www.kendoui.com). para aplicações MVC.
+* O que é: MVVM - Framework?
 É um poderoso framework HTML5/CSS3 e JavaScript para desenvolvimento front-end baseado no jQuery, muito próximo do velho conhecido jQuery UI, porém com um mecanismo JavaScript orientado ao modelo de desenvolvimento conhecido como MVVM, conta ainda com uma versão grátis e uma versão paga.
 
-## As 3 Partes do Kendo UI
+# As 3 Partes do Kendo UI
 
 * kendoUI Web
 * KnedoUI DataViz
 * KendoUI Mobile
 
-### Kendo UI Web
+## Kendo UI Web
 
 Um framework robusto baseado em jQuery.
 
@@ -34,7 +30,7 @@ Um framework robusto baseado em jQuery.
 * Theme Builder
 * Mobile Ready
 
-### Kendo UI DataViz
+## Kendo UI DataViz
 
 * Baseado em HTML5
 * SVG e VML para suporte a browsers antigos.
@@ -45,11 +41,11 @@ Um framework robusto baseado em jQuery.
 	* Barra/ Coluna
 	* Scatter Point
 
-### Kendo UI Mobile
+## Kendo UI Mobile
 
 Componentes que se adaptam ao tipo de dispositivo do usuário, simulando aparencia nativa de cada aparelho.
 
-### Controles disponíveis
+# Controles disponíveis
 
 * Auto Completar
 * Botôes
@@ -74,7 +70,7 @@ Componentes que se adaptam ao tipo de dispositivo do usuário, simulando aparenc
 	<html lang="en">
 		<head>
 			<meta charset="utf-8" />
-			<title>Kendo UI Web</title>   
+			<title>Kendo UI Web</title>
 			<!--Estilo Base-->
 			<link href="styles/kendo.common.css" rel="stylesheet"/>
 			<!--Tema em Uso-->
@@ -126,7 +122,7 @@ Definindo um modelo para utiliza-lo com o Data Source
     schema:{
         model: Pessoa
     }
-	}); 
+	});
 
 	//Para manipular as propriedades pode se utilizar a maneira abaixo...
 	dados.get(id);
@@ -143,7 +139,7 @@ Validação Nativa
 	</form>
 	<script type="text/javascript">
     $(function() {
-         $("#kValForm").kendoValidator();		
+         $("#kValForm").kendoValidator();
     });
 	</script>
 {% endhighlight %}
@@ -161,12 +157,12 @@ Validação Customizável
                  emailMatch: function(input) {
                      if(!input.is("[name=vemail]")) return true;
                      return (input.val() == $("[name=email]").val());
-                 }     		 			
+                 }
              },
              messages:{
                  emailMatch:"Email deve ser igual"
              }
-         });	     
+         });
     });
 	</script>
 {% endhighlight %}
@@ -209,7 +205,7 @@ Ex. de configuração
    </header>
    <div data-role="content">
    ...
-   </div>       
+   </div>
    <footer data-role="footer" data-id="default">
       <div data-role="tabstrip" data-selected-index="0">
         ...
@@ -220,31 +216,3 @@ Ex. de configuração
 # Próximos passos
 
 Em breve...
-
-
-
-
-
-	
-
-
-
-
-
-
-
-
-
-
-
-
-
-	
-
-
-
-
-
-
-
-

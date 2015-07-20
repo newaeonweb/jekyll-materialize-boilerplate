@@ -13,7 +13,6 @@ comments: true
 share: true
 ---
 
-# Coming Soon
-
+# Coming Soon new blog with Jekyll Engine.
 I'm working very hard to bring all the content from my old blog on wordpress to this new one.
 i hope to get everything done by the end of November, so please be patience.

@@ -4,49 +4,29 @@ title: "Articles"
 tags: []
 ---
 
-		<main class="main blog">
-			<section class="img-header img-blog">
-		        <div class="container">
-		            <div class="text-heading animated bounceInRight">
-		                <h1>Blog</h1>
-		            </div>
-		        </div>
-		    </section>
-		    <section class="content">
-		        <div class="container">
-		            <div class="row">
-						{% for post in site.posts %}
-						<div class="col s12">
-							<ul class="collection">
-    							<li class="collection-item avatar">
-    								<img src="http://placehold.it/205x100" alt="" class="circle">
-    								<span class="title"><strong class="orange-text">{{ post.date | date_to_string }}</strong> | {{ post.tags }}</span>
-    								<p>{{ post.excerpt }}</p>
-    								<a href="{{ post.url }}" class="secondary-content">Read More</a>
-    							</li>
-    						</ul>
-						</div>
-						{% endfor %}
-
-						{% for post in site.posts %}
-						<div class="col s12">
-							<div class="card">
-								<div class="card-image">
-									<img src="http://placehold.it/205x100">
-
-									<span class="card-title">{{ post.title }}</span>
-								</div>
-								<div class="card-content">
-									<p>{{ post.description }}</p>
-									</div>
-									<div class="card-action">
-										<p class="post-date">{{ post.date | date_to_string }}</p>
-										<a href="{{ post.url }}">Read More</a>
-									</div>
-								</div>
-							</div>
-							{% endfor %}
-		            </div>
-		        </div>
-		    </section>
-		</main>
+<main class="main blog">
+	<section class="img-header img-blog">
+		<div class="container">
+			<div class="text-heading animated bounceInRight">
+				<h1 class="header grey-text lighten-2">Blog</h1>
+			</div>
+		</div>
+	</section>
+	<section class="content">
+		<div class="container">
+			<div class="row">
+				{% for post in site.posts %}
+				<div class="col s12">
+					<ul class="collection hoverable">
+						<li class="collection-item">
+							<span class="title"><strong class="orange-text">{{ post.date | date_to_string }}</strong> | {{ post.tags }}</span>
+							<p>{{ post.excerpt }}</p>
+							<a href="{{ post.url }}" class="secondary-content">Read More</a>
+						</li>
+					</ul>
+				</div>
+				{% endfor %}
+			</div>
+		</div>
+	</section>
+</main>

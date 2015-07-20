@@ -5,11 +5,10 @@ description: "Entendendo como funciona o Restful de verdade."
 category: articles
 tags: [front-end]
 comments: true
-share: true   
+share: true
 ---
 
-# Um guia simples de como não fazer errado.
-
+# Entendendo como funciona o Restful de verdade.
 É muito comum hoje em dia desenvolvedores **front-end** serem questionados sobre como consumir API's utilizando Restful, porém muitos não sabem os fundamentos por trás desta **arquitetura**, e muitas vezes aquilo que voce imagina ser um Restful, não passa de um retorno em Json ou XML.
 Saiba que Restful é muito mais do que isso e voce deve começar a utilza-lo da maneira correta.
 
@@ -30,7 +29,7 @@ Não sabia? estude mais um pouco, mas não se preocupe, muitos dev back-end tamb
 
 Não vou detalhar uma a uma, mas todas elas são:
 
-- Uniform Interface define a interface base acesso entre o cliente e o servidor, que por sua vez possui 4 principios extremamente importantes: 
+- Uniform Interface define a interface base acesso entre o cliente e o servidor, que por sua vez possui 4 principios extremamente importantes:
 
     - Baseado em recursos (Resource Based) ou seja URI de acesso.
     - Manipulação de recursos utilizando representações (Manipulation of Resources Through Representations) ou seja manipular dados utilizando os verbos HTTP.
@@ -52,7 +51,7 @@ Mais adiante veremos algumas recomendações para utilizar nomes em URI's.
 
     POST-http://api.newaeonweb.com.br/posts (Insere um post no blog).
     GET-http://api.newaeonweb.com.br/posts (Recupera todos os posts do blog).
-    PUT-http://api.newaeonweb.com.br/posts/32 (Atualiza o post com ID 32).    
+    PUT-http://api.newaeonweb.com.br/posts/32 (Atualiza o post com ID 32).
     DELETE-http://api.newaeonweb.com.br/posts/32 (Deleta o post com ID 32).
 
 Embora para quem já esta acostumado com Restful a simplicidade do uso de URI é declarado, ainda vemos API's desta maneira:
@@ -69,11 +68,11 @@ O segundo exemplo, não é muito bonito e pouco descritivo, uma vez que voce dev
 
 O servidor têm a oportunidade de retornar os códigos de status HTTP juntamente com um corpo(Content body) na resposta. Apesar de não muito evidentes na utilização de frameworks MVC JavaScript onde os devs não se preocupam em mostrar a mensagem de retorno, e existem muitas menssagens, mais conhecidos como StatusCode.
 
-Na prática, deveriamos empacotar todas (não confundir empacotar com JSONP) as respostas regulares com as seguintes propriedades: 
+Na prática, deveriamos empacotar todas (não confundir empacotar com JSONP) as respostas regulares com as seguintes propriedades:
 
-• Código - contém o código de status de resposta HTTP como um inteiro. 
-• Estado - contém o texto: "sucesso", "falha" ou "erro". Onde "falha" é para valores de resposta de status HTTP 500-599, o "erro" é para status 400-499, e "sucesso" é para tudo o resto (por exemplo 1XX, 2xx e 3xx respostas). 
-• Mensagem - usado apenas para "falha" e status "erro" para conter a mensagem de erro. Para internacionalização (i18n), este pode conter um número ou código de mensagem, quer isoladamente ou contidos por delimitadores. 
+• Código - contém o código de status de resposta HTTP como um inteiro.
+• Estado - contém o texto: "sucesso", "falha" ou "erro". Onde "falha" é para valores de resposta de status HTTP 500-599, o "erro" é para status 400-499, e "sucesso" é para tudo o resto (por exemplo 1XX, 2xx e 3xx respostas).
+• Mensagem - usado apenas para "falha" e status "erro" para conter a mensagem de erro. Para internacionalização (i18n), este pode conter um número ou código de mensagem, quer isoladamente ou contidos por delimitadores.
 • Dados - que contém o corpo da resposta. No caso de "erro" ou "falha", este contém a causa, ou o nome de exceção que ocorreu no momento da requisição.
 
 Uma resposta de sucesso é um retorno como este mostrado abaixo:

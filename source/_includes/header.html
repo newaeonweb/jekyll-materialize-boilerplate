@@ -29,7 +29,14 @@
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 </head>
 <body>
-    <nav class="blue-grey lighten-5" role="navigation">
+    <div class="preloader cyan container-fluid row" style="display: none;">
+        <div class="white-text text-darken-4 xpretext"><h4>material</h4>
+        </div>
+        <div class="progress cyan lighten-2 xpreloading">
+            <div class="indeterminate cyan darken-3"></div>
+        </div>        
+    </div>
+    <nav class="blue-grey darken-2 waves-effect waves-light" role="navigation">
         <div class="nav-wrapper container">
             <ul class="right hide-on-med-and-down">
                 <li><a href="/">Home</a></li>
@@ -39,6 +46,8 @@
             </ul>
 
             <ul id="nav-mobile" class="side-nav">
+                <li><a href="#">Navbar Link</a></li>
+                <li><a href="#">Navbar Link</a></li>
                 <li><a href="#">Navbar Link</a></li>
             </ul>
             <a href="#" data-activates="nav-mobile" class="button-collapse"><i class="material-icons">menu</i></a>

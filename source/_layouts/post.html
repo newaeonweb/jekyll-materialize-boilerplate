@@ -1,0 +1,71 @@
+{% include header.html %}
+<main class="main post">
+	<section class="content">
+		<div class="container">
+			<div class="row">
+				<div class="col s12">
+					<article class="entry">
+						<div class="card">
+							<div class="responsive-img">
+								<img src="{{ site.url }}/assets/images/{{ page.image.feature }}" alt="" />
+							</div>
+
+							<div class="entry-container">
+								<header class="entry-header">
+									<h1 class="entry-title"><a href="{{post.url}}" rel="bookmark">{{ page.title }}</a></h1>
+									<div class="entry-meta">
+										<span class="posted-on"><i class="mdi-action-schedule"></i> <time class="entry-date published updated" datetime="2012-12-11T11:00:11+00:00">{{ page.date | date_to_string }} </time></a></span>
+										<span class="cat-links"><i class="mdi-file-folder-open"></i> Section: <span class="entry-tags">{% for tag in page.tags %}<a href="{{ site.url }}/tags/#{{ tag | cgi_encode }}" title="Pages tagged {{ tag }}">{{ tag }}</a>{% unless forloop.last %}&nbsp;&bull;&nbsp;{% endunless %}{% endfor %}</span></span>
+										<span class="estimated-read">{% include read_time.html %}</span>
+									</div><!-- .entry-meta -->
+								</header><!-- .entry-header -->
+
+									<div class="entry-content">
+										{{ content }}
+									</div><!-- .entry-content -->
+
+									<footer class="entry-footer">
+										<span class="comments-link"><i class="mdi-action-question-answer"></i> <a href="http://materialwp.com/post-format-standard/#respond">Leave a comment</a></span>
+									</footer><!-- .entry-footer -->
+								</div> <!-- .entry-container -->
+							</div> <!-- .card -->
+					</article>
+
+
+
+
+					<article role="article" class="post">
+
+						<h1 class="post-title">{{ page.title }}</h1>
+						<p class="post-date"><i class="mdi-action-schedule"></i>  {{ page.date | date_to_string }} por {{ page.author }} - <i class="mdi-file-folder-open"></i>{{post.category}} - {% include read_time.html %}</p>
+						<span class="entry-tags">{% for tag in page.tags %}<a href="{{ site.url }}/tags/#{{ tag | cgi_encode }}" title="Pages tagged {{ tag }}">{{ tag }}</a>{% unless forloop.last %}&nbsp;&bull;&nbsp;{% endunless %}{% endfor %}</span>
+						<div class="text-justify">
+							{{ content }}
+						</div>
+
+					</article>
+				</div>
+				<div class="col-lg-12">
+					<h1>Posts Relacionados</h1>
+					<ul class="post-list">
+						{% for post in site.posts %}
+						{% assign match = false %}
+						{% for category in post.categories limit:3 %}
+						{% if page.categories contains category %}
+						{% assign match = true %}
+						{% endif %}
+						{% endfor %}
+						{% if match %}
+						<li class="col-md-6 col-lg-6">
+							<a href="{{ post.url}}">{{ post.title }}</a>
+							<p>{{ post.date | date_to_string }} por {{ page.author }}</p>
+						</li>
+						{% endif %}
+						{% endfor %}
+					</ul>
+				</div>
+			</div>
+		</div>
+	</section>
+</main>
+{% include footer.html %}

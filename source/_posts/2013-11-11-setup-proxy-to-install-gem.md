@@ -6,8 +6,7 @@ category: articles
 tags: [Jekyll]
 ---
 
-## How to setup GEM behind a corporate proxy with authorization.
-
+# How to setup GEM behind a corporate proxy with authorization.
 I face this problem today to install a GEM for github-pages working with Jekyll.
 
 - Fist off, create a **.gemrc** file on your root user directory.

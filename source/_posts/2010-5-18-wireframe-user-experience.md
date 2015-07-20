@@ -9,8 +9,7 @@ comments: true
 share: true
 ---
 
-## Wireframe ShowCase.
-
+# Wireframe ShowCase utilizando [Balsamiq](http://balsamiq.com/products/mockups/).
 Já venho utilizando o **Balsamiq** há algum tempo em alguns pequenos projetos pessoais e recentemente tive a oportunidade de colocar em prática em um projeto real.
 
 Para quem ainda não conhece o [Balsamiq](http://balsamiq.com/products/mockups/) é um software para criação de wireframes e protótipos muito similar ao Axure, Mockflow, Pencil entre outros.

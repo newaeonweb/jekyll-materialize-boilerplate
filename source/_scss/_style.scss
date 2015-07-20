@@ -46,6 +46,95 @@
     margin: 20px auto;
 }
 
-h1 {
-    font-size: 2.2em;
+.scrollToTop {
+    position: fixed;
+    top: 100px;
+    right: 40px;
+    display: none;
+
+    i {
+    font-size: 50px;
+    }
+}
+
+.divider {
+    margin: 25px 0;
+    height: 1px;
+    background: #444;
+    background: -webkit-gradient(linear, 0 0, 100% 0, from(white), to(white), color-stop(50%, #444));
+}
+
+.divider-arrow {
+  height: 1px;
+  background: #d1d1d1;
+  text-align: center;
+  max-width: 1200px;
+  margin: 0 auto;
+
+  span {
+    position: relative;
+    top: -1.2em;
+  }
+}
+.preloader {
+    position: fixed;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 999;
+    overflow: visible;
+}
+
+.title {
+    text-transform: uppercase;
+    font-weight: 600;
+    margin-bottom: 5px;
+}
+.sub-title {
+
+}
+
+.space {
+    display: block;
+    position: relative;
+    clear: both;
+    margin: 50px auto;
+}
+
+.home-post {
+
+    h1 {
+        font-size: 2.2em;
+    }
+}
+
+.about, .blog, .project {
+
+    // h1 {
+    //     font-size: 2.2em;
+    // }
+}
+
+.collection {
+    h1 {
+        font-size: 2.2em;
+    }
+}
+
+.entry-container {
+    padding: 35px;
+}
+
+.post {
+
+    h1 {
+        font-size: 2.2em;
+    }
+    h2 {
+        font-size: 2.0em;
+    }
+    h3 {
+        font-size: 1.8em;
+    }
 }

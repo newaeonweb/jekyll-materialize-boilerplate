@@ -3,14 +3,11 @@ layout: post
 title: Impressões sobre o Ghost primeiro blog em Node.js.
 description: "Primeiras inpressões sobre o Ghost, blog em Node.js."
 category: articles
-tags: [Node.js, Ghost]
+tags: [Node]
 comments: true  
 ---
 
-## Ghost um sistema de blog em Node.js.
-
-### Primeiras inpressões.
-
+# Ghost um sistema de blog em Node.js.
 Eu acabei de instalar a nova plataforma de blog chamada Ghost, lançada oficialmente na segunda feira, que roda no **Node.js**.
 Posso dizer que é muito facíl de instalar e começar a utilizar localmente, eu gastei 5 min entre baixar, descompactar, instalar e escrever o primeiro post, foi realmente rápido.
 
@@ -48,4 +45,3 @@ Insira seu login a senha e comece a blogar.
 
 É claro que o foco do Ghost é ser apenas uma plataforma de Blog, então não espere todos os recursos de um CMS completo.
 Para quem curte escrever será uma ótima ferramenta.
-

@@ -3,11 +3,11 @@ layout: post
 title: Responsive Boilerplate snippets for Sublime Text.
 description: "Rb snippets available through Package Control."
 category: articles
-tags: [ResponsiveBoilerplate]
+tags: [Front-end]
 comments: true
 share: true
 ---
-
+# RB components for Responsive Boilerplate.
 Finally [ResponsiveBoilerplate](http://www.newaeonweb.com.br/) is available through **Sublime Text** Package Control.
 
 For those who don't know/use PackageControl, check this: [How to install](https://sublime.wbond.net/installation/).
@@ -31,6 +31,4 @@ type: _ResponsiveBoilerplate_
 
 Click and done!
 
-Now you can easily use the snippets, for more infos, visit the officil github repo on [ResponsiveBoilerplateSnippets](https://github.com/newaeonweb/ResponsiveBoilerplateSnippets/). 
-
-
+Now you can easily use the snippets, for more infos, visit the officil github repo on [ResponsiveBoilerplateSnippets](https://github.com/newaeonweb/ResponsiveBoilerplateSnippets/).

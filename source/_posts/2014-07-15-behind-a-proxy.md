@@ -9,7 +9,6 @@ share: true
 ---
 
 # How to setup front-end tools behind a corporate proxy?
-
 It's very common when you start to develop web applications in big companies, face some crushing walls with firewall and other network policies, ssh certificates, user roles and other's things.
 
 This post is just to give you a light and a path to follow to work with tools like **Bower**, **NPM**, **Git**, **Brackets**, **Gem**.
@@ -75,8 +74,7 @@ This file can be found on debug menu, preferences file, just add this line and s
     proxy = http://yourname:yourpassword@host:port
 
 {% endhighlight %}
-    
+
 Save this file as: `.gemrc´.
 
 That's all, now you must be able to use this tools.
-

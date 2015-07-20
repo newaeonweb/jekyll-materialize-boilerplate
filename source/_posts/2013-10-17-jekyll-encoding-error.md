@@ -7,7 +7,7 @@ category: articles
 tags: [Jekyll]
 comments: true  
 ---
-
+#Jekyll bug com character encodings.
 Um erro muito comum para quem esta utilizando o **Jekyll**, após executar o comando `` `jekyll serve` `` ou `` `jekyll bulid` ``, é se deparar com o seguinte erro no terminal:
 
 _Liquid Exception: incompatible character encodings: UTF-8 and CP850 in nomesoseuarquivo.html._

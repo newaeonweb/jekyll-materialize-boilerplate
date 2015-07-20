@@ -7,5 +7,6 @@ tags: [video]
 comments: true
 share: true
 ---
-
-<iframe width="560" height="315" src="http://www.youtube.com/embed/do1Ovs5oQkM" frameborder="0"> </iframe>
+<div class="video-container">
+    <iframe width="560" height="315" src="http://www.youtube.com/embed/do1Ovs5oQkM" frameborder="0"> </iframe>
+</div>

@@ -1,25 +1,24 @@
 ---
 layout: post
 title: CSS Modular, SMACSS e OOCSS.
-description: "Modularizando o css de maneira inteligente."
+description: "Modularizando o css de maneira inteligente. Entenda o que é BEM, SMACSS e OOCSS"
 category: articles
 tags: [front-end]
 image:
   feature: smacss.jpg
   credit: Brackets Screenshot.
   creditlink: http://www.newaeonweb.com.br
-comments: true 
-share: true 
+comments: true
+share: true
 ---
 
 # Já ouviu falar em CSS Modular?
-
 Recentemente tenho visto muita discussão a cerca de SMACSS, BEM, OOCSS e CSS modular, qual o melhor padrão?, qual a melhor syntax? e por ai vai.
 Sinceramente, acho tudo isso uma perda de tempo, nunca um padrão será ou terá a mesma utilidade e dinamismo para todos. É importante notar que; _você deve entender e absorver os conceitos de cada padrão de design (design patterns)_ e é claro utilizar aquele que melhor se adapta a sua necessidade.
 
 > SMACSS - Scalable and Modular Architecture for CSS. É um ótimo ponto de partida para separação de estrutura e aparência.
 
-### SMACSS
+# SMACSS
 
 Preza pela utilização de diferentes diretórios para cada tipo de folha de estilo:
 
@@ -35,11 +34,11 @@ Além de uma serie de dicas muito valiozas para performance e regras ineficiente
 {% highlight CSS %}
     div#content > h3
     div#content:hover
-{% endhighlight %}   
+{% endhighlight %}
 
 [Aqui](https://smacss.com/book/selectors), você pode ler mais sobre isso.
 
-### OOCSS
+# OOCSS
 
 É um conceito que visa a separação da estrutura e aparência no CSS, para tornar o seu código reutilizável, imagine um arquivo como este:
 
@@ -60,7 +59,7 @@ Além de uma serie de dicas muito valiozas para performance e regras ineficiente
         background: linear-gradient(#ccc, #222);
         box-shadow: rgba(0, 0, 0, .5) 2px 2px 5px;
     }
-{% endhighlight %} 
+{% endhighlight %}
 
 Este é um exemplo de código ruim e nada modular, além de utilizar ID para seletores naturais, não permite reaproveitamento no HTML.
 
@@ -77,19 +76,19 @@ Agora utilizando o principio de orientação a objeto em css (OOCSS), conseguimo
         width: 400px;
         overflow: hidden;
     }
-    
+
     .aparencia {
         border: solid 1px #ccc;
         background: linear-gradient(#ccc, #222);
         box-shadow: rgba(0, 0, 0, .5) 2px 2px 5px;
     }
-{% endhighlight %} 
+{% endhighlight %}
 
 Podemos utilizar a classe `.aparencia` em qualquer elemento `button` ou `label` e retuliza-lo quantas vezes for necessário em nosso HTML.
 
 [Aqui](https://github.com/stubbornella/oocss), você pode ler mais sobre isso.
 
-### Qual o melhor?
+# Qual o melhor?
 
 Pessoalmente costumo utilizar uma mistura de SMACCS com BEM e OOCSS, para quem não conhece [BEM](http://newaeonweb.com.br/articles/conceito-bem-com-css-e-less/), há algum tempo já escrevi sobre isso.
 SMACSS para organização de diretórios e divisão de responsabilidades e BEM para nomenclatura e OOCSS para estruturar as classes, tudo isso com **LESS**.
@@ -115,7 +114,7 @@ Além destes diretórios, ainda tem as funções e as variáveis, estes dois arq
     @texture: none;
     @tooltip-texture: url('../images/highlight.png');
     @fallback-texture: url('../images/highlight.png');
-{% endhighlight %} 
+{% endhighlight %}
 
 Enfim, CSS modular é aquele que você consegue individualizar todos os componentes de interface e fazer com que eles se comportem da mesma maneira em todos os lugares.
 
@@ -132,6 +131,6 @@ Já o conceito BEM é aplicado na nomeclatura dos modificadores, estes por sua v
             font-size: @baseFont + 0.5em;
             margin: ((@baseLineHeight / 2) - 1) 1px;
         }
-{% endhighlight %} 
+{% endhighlight %}
 
 Este é o estilo que adoto em meus projetos, é bem organizado e limpo. Um pouco de cada conceito para dar flexibilidade e forma a uma escrita bem estruturada.

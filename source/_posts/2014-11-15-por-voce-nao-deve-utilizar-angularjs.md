@@ -1,15 +1,14 @@
 ---
 layout: post
 title: Porque você não deve utilizar AngularJS?
-description: "Entendendo como o AngularJS pode prejudicar o seu projeto."
+description: "Entendendo como o AngularJS pode não ser a melhor solução para seu projeto."
 category: articles
-tags: [front-end]
+tags: [AngularJS]
 comments: true
-share: true   
+share: true
 ---
 
-#Onde você não deve utilizar Angular.js.
-
+#Onde você não deve utilizar Angular.JS.
 Apesar de robusto e bem popular este excelente framework não é a solução para todos os seus problemas.
 Isso infelizmente é um fato muito verdadeiro.
 
@@ -74,10 +73,10 @@ Entretanto, algumas coisas realmente funcionam muito bem, melhor ainda se o back
 **Restful** bem estruturada, **$resource** e **$httpProvider** para lidar com autenticação utilizando interceptors são ótimos. Escrever objetos JavaScript puros
 dentros dos Controllers também é muito bom.
 
-Se você tem tempo e o custo beneficio da utilização for compensadora, recomendo a utilização, e recomendo mais ainda 
+Se você tem tempo e o custo beneficio da utilização for compensadora, recomendo a utilização, e recomendo mais ainda
 ter um especialista na sua equipe. Ter em mente que _**menos é mais**_ também ajuda na escolha das ferramentas para seu próximo projeto.
 
-Este texto tem o intuito de facilitar a tomada de decisão, afinal é muito facíl encontrar inumeros motivos para 
+Este texto tem o intuito de facilitar a tomada de decisão, afinal é muito facíl encontrar inumeros motivos para
 utilizar os frameworks mais populares, a comunidade é vibrante e sem duvida o Angular é o mais popular, além disso atualmente muitas empresas estão buscando profissionais
 com conhecimento em **Angular**, **Backbone**, **Ember**.
 
@@ -87,4 +86,3 @@ pequenos projetos pontuais.
 
 Frameworks facilitam a sua vida, e sem duvida o Angular é ótimo, mas utiliza-lo em todos projetos possiveis e imaginaveis
 não é uma atitude muito racional.
-

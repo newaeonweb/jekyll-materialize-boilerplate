@@ -3,7 +3,7 @@ layout: post
 title: ResponsiveBoilerplate updated.
 description: "Responsiveboilerplate was updated now using grunt.js, npm, bower."
 category: articles
-tags: [ResponsiveBoilerplate]
+tags: [Front-end]
 image:
   feature: aboutimg.jpg
   credit: ResponsiveBoilerplate
@@ -11,10 +11,10 @@ image:
 comments: true  
 ---
 
-## Responsive Roilerplate receive a major update.
-> Using Bower Component Manager (Bower.io)
-
+# Responsive Roilerplate receive a major update.
 Now is very easy to start a project using **Responsive Boilerplate**, if you already have Node.js and npm (Node Package Manager), Grunt.js and Bower installed just execute the command.
+
+> Using Bower Component Manager (Bower.io)
 
 {% highlight shell-session %}
 	bower install responsiveboilerplate
@@ -43,13 +43,13 @@ This will install all de dependencies.
 Now you enviroment is almost ready, just running command:
 
 {% highlight javascript %}
-	grunt 
+	grunt
 {% endhighlight %}
 
 If you are on windows:
 
 {% highlight javascript %}
-	grunt.cmd 
+	grunt.cmd
 {% endhighlight %}
 
 All the project will be linted and validated.

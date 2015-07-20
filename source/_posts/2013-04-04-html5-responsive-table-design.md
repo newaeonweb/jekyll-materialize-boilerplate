@@ -9,7 +9,6 @@ share: true
 ---
 
 # HTML5 Responsive Table Design, retrospectiva de 1 ano.
-
 Em Abril deste ano 2014, faz 1 ano que foi lançado mundialmente meu primeiro livro, HTML5 Responsive Table Design, então
 resolvi escrever este post para registrar este fato.
 

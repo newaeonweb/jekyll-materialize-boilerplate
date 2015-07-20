@@ -12,7 +12,7 @@ image:
 comments: true  
 share: true
 ---
-
+#How i was forced to move from Wordpress to Jekyll blog engine.
 Some time ago, i had a conversation with an old friend and he ask me a good question:
 > Did you hear about Jekyll blog engine?
 > Everybody in community are using.
@@ -22,4 +22,3 @@ My experience was very good since Github have native support for Jekyll engine a
 I just picked up a theme and made some changes, ok as i front-end i should make my own theme, but i'm very busy now and don't have so much free time to building the stuff from the scratch, sorry.
 
 Well, that's all for now.
-
