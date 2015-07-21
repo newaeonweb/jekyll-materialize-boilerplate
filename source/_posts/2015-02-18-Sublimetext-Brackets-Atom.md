@@ -12,7 +12,7 @@ comments: true
 share: true
 ---
 
-# A batalha dos Editores.
+# Do Sublime Text ao Brackets e finalmente Atom.
 Há algum tempo em uma conversa com alguns amigos devs, surgiu o impasse do editor, então como sou
 defensor do [Webstorm](https://www.jetbrains.com/webstorm/), vou postar um panorama sobre os mais
 populares do momento e porque estou utilizando o [ATOM](https://atom.io/).

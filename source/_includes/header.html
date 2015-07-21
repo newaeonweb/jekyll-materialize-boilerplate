@@ -34,15 +34,15 @@
         </div>
         <div class="progress cyan lighten-2 xpreloading">
             <div class="indeterminate cyan darken-3"></div>
-        </div>        
+        </div>
     </div>
     <nav class="blue-grey darken-2 waves-effect waves-light" role="navigation">
         <div class="nav-wrapper container">
-            <ul class="right hide-on-med-and-down">
-                <li><a href="/">Home</a></li>
-                <li><a href="/about/">About</a></li>
-                <li><a href="/projects/">Projects</a></li>
-                <li><a href="/blog/">Articles</a></li>
+            <ul class="nav-center hide-on-med-and-down light">
+                <li {% if page.url == '/' %}class="active" {% endif %}><a href="/">Home</a></li>
+                <li {% if page.url == '/about/' %}class="active" {% endif %}><a href="/about/">About</a></li>
+                <li {% if page.url == '/projects/' %}class="active" {% endif %}><a href="/projects/">Projects</a></li>
+                <li {% if page.url == '/blog/' %}class="active" {% endif %}><a href="/blog/">Articles</a></li>
             </ul>
 
             <ul id="nav-mobile" class="side-nav">

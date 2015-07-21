@@ -8,7 +8,7 @@ comments: true
 share: true
 ---
 
-# Esquecendo o jQuery.
+# Requisição Ajax com AngularJS sem jQuery.
 Ao utilizar AngularJS pela primeira vez, é comum pensar como o jQuery faz a coisas, ou seja tudo muito simples e facíl, no AngularJS isso também é verdade. Porém existem algumas diferenças quando pensamos em manipulação do DOM.
 
 Muitos amigos me perguntam como utilizar jQuery dentro de aplicações AngularJS, a partir dai tive a ideia de escrever este post e ilustrar uma requisição Ajax, utilizando $http do AngularJS ou invés do $.ajax().
