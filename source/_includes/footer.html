@@ -10,6 +10,7 @@
 <script src="{{ site.url }}/assets/javascripts/jquery-2.1.1.min.js"></script>
 <script src="{{ site.url }}/assets/javascripts/materialize/bin/materialize.min.js"></script>
 <script src="{{ site.url }}/assets/javascripts/scripts.js"></script>
+{% if page.comments %}{% include disqus_comments.html %}{% endif %}
 
 </body>
 </html>

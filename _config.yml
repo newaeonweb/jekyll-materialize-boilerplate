@@ -9,6 +9,8 @@ author:
   github:           newaeonweb
   twitter:          newaeonweb
 
+disqus_shortname:   newaeonweb
+
 # Dependencies
 markdown:           kramdown
 highlighter:        pygments
