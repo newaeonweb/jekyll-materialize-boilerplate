@@ -1,0 +1,53 @@
+---
+layout: default
+permalink: /tags/
+title: Tag Index
+description: "An archive of posts sorted by tag."
+---
+<main class="main tags">
+	<section class="content">
+		<div class="container">
+			<div class="row">
+				
+				<ul class="collection with-header">
+					<li class="collection-header"><h4>An archive of posts sorted by tag</h4></li>
+					{% assign tags_list = site.tags %}  
+					{% if tags_list.first[0] == null %}
+					{% for tag in tags_list %} 
+					<li class="collection-item"><div><a href="#{{ tag }}">{{ tag }}</a><a href="#{{ tag }}" class="secondary-content"><span class="badge">{{ site.tags[tag].size }}</span></a></div></li>
+					{% endfor %}
+					{% else %}
+					{% for tag in tags_list %}
+					<li class="collection-item"><div><a href="#{{ tag[0] }}">{{ tag[0] }}</a> <a href="#{{ tag[0] }}" class="secondary-content"><span class="badge">{{ tag[1].size }}</span></a></div></li>
+					{% endfor %}
+					{% endif %}
+					{% assign tags_list = nil %}
+				</ul>
+			</div>
+		</div>
+	</section>
+	<div class="divider"></div>
+	<section class="content">
+		<div class="container">
+			<div class="row">
+				{% for tag in site.tags %}
+				<ul class="collection with-header">					 
+					<li class="collection-header"><h4 id="{{ tag[0] }}">{{ tag[0] }}</h4></li>
+					{% assign pages_list = tag[1] %}  
+					{% for post in pages_list %}
+					{% if post.title != null %}
+					{% if group == null or group == post.group %}
+					<li class="collection-item">
+						<span class="grey-text"><time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%B %d, %Y" }}</time></span> <a href="{{ site.url }}{{ post.url }}">{{ post.title }}</a></li>
+					{% endif %}
+					{% endif %}
+					{% endfor %}
+					{% assign pages_list = nil %}
+					{% assign group = nil %}
+				</ul>
+				{% endfor %}
+			</div>
+		</div>
+	</section>
+</main>
+

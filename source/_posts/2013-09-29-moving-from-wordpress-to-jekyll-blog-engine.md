@@ -4,7 +4,7 @@ title: Moving to Jekyll
 description: "How i was forced to move from Wordpress to Jekyll blog engine."
 modified: 2013-09-29
 category: articles
-tags: [jekyll]
+tags: [Jekyll]
 image:
   feature: aboutimg.jpg
   credit: ResponsiveBoilerplate

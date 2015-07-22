@@ -2,7 +2,7 @@
     <a class="scrollToTop btn-floating btn-large waves-effect waves-light grey darken-3" style="display: none;"><i class="mdi-hardware-keyboard-arrow-up"></i></a>
     <div class="footer-copyright grey darken-4">
         <div class="container">
-            {{ site.site_copyright }} Made with <a class="blue-text" href="http://materializecss.com">Materialize</a> and <a class="blu-text" href="#">jekyll</a> by <a class="blue-text" href="http://twitter.com/{{ site.author.twitter}}">@{{ site.author.twitter }}</a>
+            {{ site.site_copyright }} Made with <a href="http://materializecss.com">Materialize</a> and <a href="#">jekyll</a> by <a href="http://twitter.com/{{ site.author.twitter}}">@{{ site.author.twitter }}</a>
         </div>
     </div>
 </footer>
@@ -12,6 +12,9 @@
 <script src="{{ site.url }}/assets/javascripts/scripts.js"></script>
 {% if page.comments %}{% include disqus_comments.html %}{% endif %}
 
-<script src="https://cdnjs.cloudflare.com/ajax/libs/prism/0.0.1/prism.min.js"></script>
+<!--<script src="https://cdnjs.cloudflare.com/ajax/libs/prism/0.0.1/prism.min.js"></script>-->
+<script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/8.6/highlight.min.js"></script>
+<script>hljs.initHighlightingOnLoad();</script>
+
 </body>
 </html>

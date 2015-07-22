@@ -3,7 +3,7 @@ layout: post
 title: Utilizando o conceito BEM com LESSCSS.
 description: "Exemplos práticos da utilização do conceito BEM, block element, modifier com LESSCESS."
 modified: 2013-10-14
-category: articles
+category: Front-end
 tags: [Front-end]
 image:
   feature: bem.jpg

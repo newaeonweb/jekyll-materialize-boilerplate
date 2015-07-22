@@ -2,8 +2,8 @@
 layout: post
 title: HTML5 Responsive Design - 1 ano.
 description: "Clipping de 1 ano de lançamento do livro HTML5 responsive table design."
-category: articles
-tags: [books]
+category: Books
+tags: [Books]
 comments: true
 share: true
 ---

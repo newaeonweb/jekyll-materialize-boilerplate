@@ -2,7 +2,7 @@
 layout: post
 title: Do Sublime Text ao Brackets e finalmente Atom.
 description: "Porque voce deveria dar uma olhada no ATOM."
-category: articles
+category: Front-end
 tags: [Front-end]
 image:
   feature: atom.png

@@ -3,7 +3,7 @@ layout: post
 title: Why you don't need to wait AngularJS 2.0.
 description: "Wait for what? Use AngularJS now, and change later."
 category: articles
-tags: [ANgularJS]
+tags: [AngularJS]
 image:
 comments: true
 share: true

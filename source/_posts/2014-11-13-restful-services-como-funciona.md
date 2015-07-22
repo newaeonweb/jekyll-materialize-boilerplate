@@ -3,7 +3,7 @@ layout: post
 title: Restful Service, porque voce faz errado?
 description: "Entendendo como funciona o Restful de verdade."
 category: articles
-tags: [front-end]
+tags: [Front-end]
 comments: true
 share: true
 ---

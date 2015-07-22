@@ -3,7 +3,7 @@ layout: post
 title: SASS e Compass for Webdesigners.
 description: "SASS para webdesigners com interface amigável para windows e mac."
 category: articles
-tags: [front-end]
+tags: [Front-end]
 comments: true
 share: true
 ---

@@ -2,7 +2,7 @@
 layout: post
 title: Building an AngularJS app in 5 minutes.
 description: "Learn and Master the angm-generator to build AngularJS application easily."
-category: articles
+category: AngularJS
 tags: [AngularJS]
 comments: true
 share: true

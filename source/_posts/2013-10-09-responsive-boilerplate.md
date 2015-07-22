@@ -2,7 +2,7 @@
 layout: post
 title: ResponsiveBoilerplate updated.
 description: "Responsiveboilerplate was updated now using grunt.js, npm, bower."
-category: articles
+category: Front-end
 tags: [Front-end]
 image:
   feature: aboutimg.jpg

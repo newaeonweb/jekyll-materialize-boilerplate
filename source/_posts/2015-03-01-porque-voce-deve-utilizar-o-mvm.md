@@ -2,7 +2,7 @@
 layout: post
 title: Porque utilizar o nvm?.
 description: "Uma simples alternativa a quebra de compatibilidade de alguns plugins Node.js."
-category: articles
+category: Node
 tags: [Node]
 comments: true
 share: true

@@ -2,7 +2,7 @@
 layout: post
 title: Fluxo Básico para um bom trabalho de User Experience.
 description: "Entenda como iniciar um ótimo trabalho de UX, antes de utilizar um computador."
-category: articles
+category: UX
 tags: [UX]
 comments: true
 share: true

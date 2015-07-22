@@ -3,7 +3,7 @@ layout: post
 title: Jekyll Encoding Error.
 description: "Um error muito comun aos usuários do Jekyll, incompatible character encodings: UTF-8 and CP850."
 modified: 2013-10-25
-category: articles
+category: Jekyll
 tags: [Jekyll]
 comments: true  
 ---

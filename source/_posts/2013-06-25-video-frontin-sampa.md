@@ -2,8 +2,8 @@
 layout: post
 title: "Video Frontin Sampa 2012"
 description: "Talk About responsive design and business."
-category: articles
-tags: [video]
+category: Video
+tags: [Video]
 comments: true
 share: true
 ---

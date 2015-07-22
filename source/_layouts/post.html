@@ -4,52 +4,65 @@
 		<div class="container">
 			<div class="row">
 				<div class="col s12">
-					<article class="entry">
+					<article class="entry">						
 						<div class="card">
-							<div class="responsive-img">
-								<img src="{{ site.url }}/assets/images/{{ page.image.feature }}" alt="{{ page.image.feature }}" />
+							<div class="card-image">
+								<img src="https://placehold.it/1280x150">							
 							</div>
-
-							<div class="entry-container">
-								<header class="entry-header">
-									<h1 class="entry-title"><a href="{{post.url}}" rel="bookmark">{{ page.title }}</a></h1>
-									<div class="entry-meta">
-										<span class="posted-on"><i class="mdi-action-schedule"></i> <time class="entry-date published updated" datetime="2012-12-11T11:00:11+00:00">{{ page.date | date_to_string }} </time></a></span>
-										<span class="cat-links"><i class="mdi-file-folder-open"></i> Section: <span class="entry-tags">{% for tag in page.tags %}<a href="{{ site.url }}/tags/#{{ tag | cgi_encode }}" title="Pages tagged {{ tag }}">{{ tag }}</a>{% unless forloop.last %}&nbsp;&bull;&nbsp;{% endunless %}{% endfor %}</span></span>
-										<span class="estimated-read">{% include read_time.html %}</span>
-									</div><!-- .entry-meta -->
-								</header><!-- .entry-header -->
-
-									<div class="entry-content">
-										{{ content }}
-									</div><!-- .entry-content -->
-
-									<footer class="entry-footer">
-										<span class="comments-link"><i class="mdi-action-question-answer"></i> <a href="http://materialwp.com/post-format-standard/#respond">Leave a comment</a></span>
-									</footer><!-- .entry-footer -->
-								</div> <!-- .entry-container -->
-							</div> <!-- .card -->
-					</article>
-					<section>
-						<ul class="pagination">
+							<div class="card-content">
+								<ul class="entry-meta center">
+									<li>
+										<span class="posted-on">
+											<i class="mdi-action-schedule"></i> 
+											<time class="entry-date published updated" datetime="2012-12-11T11:00:11+00:00">{{ page.date | date_to_string }} </time>
+										</span>
+									</li>
+									<li>
+										<span class="cat-links">
+											<i class="mdi-file-folder-open"></i> 
+											Section: <span class="entry-tags">{% for tag in page.tags %}
+											<a href="{{ site.url }}/tags/#{{ tag | cgi_encode }}" title="Pages tagged {{ tag }}">{{ tag }}</a>{% unless forloop.last %}&nbsp;&bull;&nbsp;{% endunless %}{% endfor %}
+											</span></span>
+									</li>
+									<li>
+										{% if site.disqus_shortname and page.comments %}
+										<span class="entry-comments"><i class="mdi-action-question-answer"></i> <a href="#disqus_thread">Comment</a></span>{% endif %}
+									</li>
+									<li>
+										<span class="estimated-read"><i class="mdi-action-alarm"></i>{% include read_time.html %}</span>
+									</li>
+								</ul>
+								{{ content }}
+							</div>
+							<div class="card-action">
+								<span class="comments-link"><i class="mdi-action-question-answer"></i> <a href="">Leave a comment</a></span>
+							</div>
+						</div>
+					</article>					
+				</div>
+			</div>
+			<div class="row">
+				<div class="col s12">
+					
+					<section class="center">
+						<ul class="prev-next">
 							{% if page.previous %}
-							<li class="waves-effect"><a href="{{ site.url }}{{ page.previous.url }}"><i class="material-icons">chevron_left</i>{{ page.previous.title }}</a></li>
+							<li><a class="left-align btn waves-effect waves-light" href="{{ site.url }}{{ page.previous.url }}"><i class="mdi-hardware-keyboard-arrow-left"></i> Previous Article</a></li>
 							{% endif %}
 							{% if page.next %}
-							<li class="waves-effect"><a href="{{ site.url }}{{ page.next.url }}"><i class="material-icons">chevron_right</i>{{ page.next.title }}</a></li>
+							<li><a class="right-align btn waves-effect waves-light" href="{{ site.url }}{{ page.next.url }}">Next Article<i class="mdi-hardware-keyboard-arrow-right"></i></a></li>
 							{% endif %}
 
 						</ul>
 					</section>
+
 					<section>
 						{% include related.html %}
 					</section>
-					{% if site.disqus_shortname and page.comments %}<span class="entry-comments"><i class="icon-comment-alt"></i> <a href="#disqus_thread">Comment</a></span>{% endif %}
-
-
+					
 					{% if site.disqus_shortname and page.comments %}<div id="disqus_thread"></div><!-- /#disqus_thread -->{% endif %}
 				</div>
-
+				
 			</div>
 		</div>
 	</section>

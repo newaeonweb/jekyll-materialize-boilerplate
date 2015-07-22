@@ -2,7 +2,7 @@
 layout: post
 title: Porque você não deve utilizar AngularJS?
 description: "Entendendo como o AngularJS pode não ser a melhor solução para seu projeto."
-category: articles
+category: AngularJS
 tags: [AngularJS]
 comments: true
 share: true

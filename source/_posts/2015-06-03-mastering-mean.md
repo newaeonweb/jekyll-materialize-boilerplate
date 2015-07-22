@@ -2,7 +2,7 @@
 layout: post
 title: Mastering MEAN Development.
 description: "Learn and Master the full MEAN stack with over 250 lessons from 50 world class developers."
-category: articles
+category: AngularJS
 tags: [AngularJS] 
 comments: true
 share: true

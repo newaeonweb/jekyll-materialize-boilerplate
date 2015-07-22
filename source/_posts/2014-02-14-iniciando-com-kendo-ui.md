@@ -2,7 +2,7 @@
 layout: post
 title: Conhecendo Kendoui.
 description: "Introdução ao framework kendoui."
-category: articles
+category: Front-end
 tags: [Front-end]
 comments: true
 share: true

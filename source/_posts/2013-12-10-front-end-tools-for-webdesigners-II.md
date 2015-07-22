@@ -2,7 +2,7 @@
 layout: post
 title: Front-end tools for webdesigners II.
 description: "EditorConfig, uma dica para identação do código em varios editoress."
-category: articles
+category: Front-end
 tags: [Front-end]
 comments: true
 share: true

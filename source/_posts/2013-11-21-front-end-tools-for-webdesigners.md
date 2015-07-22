@@ -3,7 +3,7 @@ layout: post
 title: Front-end tools for Webdesigners.
 description: "An overview about the front-end tools for webdesigners."
 category: articles
-tags: [front-end]
+tags: [Front-end]
 image:
   feature: frontendtools.jpg
   credit: All Logos are trademark.

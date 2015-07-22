@@ -2,7 +2,7 @@
 layout: post
 title: Impressões sobre o Ghost primeiro blog em Node.js.
 description: "Primeiras inpressões sobre o Ghost, blog em Node.js."
-category: articles
+category: Node
 tags: [Node]
 comments: true  
 ---

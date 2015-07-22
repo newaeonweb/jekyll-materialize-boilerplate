@@ -3,7 +3,7 @@ layout: post
 title: "Wireframe Showcase."
 description: "Wireframe e design para e-commerce."
 modified: 2013-10-16
-category: articles
+category: UX
 tags: [UX]
 comments: true  
 share: true

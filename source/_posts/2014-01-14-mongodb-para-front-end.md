@@ -2,7 +2,7 @@
 layout: post
 title: Mongodb para Front-end Developers.
 description: "Porque Mongodb pode ser útil para o profissional Front-end."
-category: articles
+category: Mongodb
 tags: [Mongodb]
 comments: true
 share: true

@@ -3,7 +3,7 @@ layout: post
 title: O que não é User Experience.
 description: "Alguns fatos interessantes sobre o que não faz parte da experiência do usuário."
 modified: 2013-10-17
-category: articles
+category: UX
 tags: [UX]
 comments: true  
 ---

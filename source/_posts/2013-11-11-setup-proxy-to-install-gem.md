@@ -2,7 +2,7 @@
 layout: post
 title: Setup proxy to install Gem.
 description: "How to setup GEM behind a corporate proxy with authorization."
-category: articles
+category: Jekyll
 tags: [Jekyll]
 ---
 

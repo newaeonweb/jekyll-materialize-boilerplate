@@ -2,7 +2,7 @@
 layout: post
 title: Entendendo AngularJS e troca de dados.
 description: "Exemplificando requisições Ajax com AngularJS."
-category: articles
+category: AngularJS
 tags: [AngularJS]
 comments: true
 share: true
@@ -24,7 +24,7 @@ Aproveitando o exemplo do post anterior: [Ajax-request-com-AngularJS](http://new
 
 Vamos entender como utiliza-lo com a imagem abaixo:
 
-![AngularJS by image]({{ site.url }}/images/AngularJS-by-images.png "AngularJS")
+![AngularJS by image]({{ site.url }}/assets/images/AngularJS-by-images.png "AngularJS")
 
 ### Controller.
 

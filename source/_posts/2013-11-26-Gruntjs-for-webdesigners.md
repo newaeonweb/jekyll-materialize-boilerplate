@@ -3,7 +3,7 @@ layout: post
 title: Grunt.js for Webdesigners.
 description: "Grunt.js para webdesigners com interface amigável."
 category: articles
-tags: [front-end]
+tags: [Front-end]
 comments: true
 share: true
 ---

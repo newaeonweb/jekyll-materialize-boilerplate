@@ -2,7 +2,7 @@
 layout: post
 title: Requisição Ajax com AngularJS.
 description: "Como fazer requisições Ajax utilizando AngularJS."
-category: articles
+category: AngularJS
 tags: [AngularJS]
 comments: true
 share: true
