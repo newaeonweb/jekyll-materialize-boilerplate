@@ -7,7 +7,7 @@
 					<article class="entry">
 						<div class="card">
 							<div class="responsive-img">
-								<img src="{{ site.url }}/assets/images/{{ page.image.feature }}" alt="" />
+								<img src="{{ site.url }}/assets/images/{{ page.image.feature }}" alt="{{ page.image.feature }}" />
 							</div>
 
 							<div class="entry-container">
@@ -34,19 +34,6 @@
 
 
 					{% if site.disqus_shortname and page.comments %}<div id="disqus_thread"></div><!-- /#disqus_thread -->{% endif %}
-					     
-
-
-					<article role="article" class="post">
-
-						<h1 class="post-title">{{ page.title }}</h1>
-						<p class="post-date"><i class="mdi-action-schedule"></i>  {{ page.date | date_to_string }} por {{ page.author }} - <i class="mdi-file-folder-open"></i>{{post.category}} - {% include read_time.html %}</p>
-						<span class="entry-tags">{% for tag in page.tags %}<a href="{{ site.url }}/tags/#{{ tag | cgi_encode }}" title="Pages tagged {{ tag }}">{{ tag }}</a>{% unless forloop.last %}&nbsp;&bull;&nbsp;{% endunless %}{% endfor %}</span>
-						<div class="text-justify">
-							{{ content }}
-						</div>
-
-					</article>
 				</div>
 				<div class="col-lg-12">
 					<h1>Posts Relacionados</h1>
@@ -59,9 +46,9 @@
 						{% endif %}
 						{% endfor %}
 						{% if match %}
-						<li class="col-md-6 col-lg-6">
+						<li class="col s6 m6">
 							<a href="{{ post.url}}">{{ post.title }}</a>
-							<p>{{ post.date | date_to_string }} por {{ page.author }}</p>
+							<p>{{ post.date | date_to_string }}</p>
 						</li>
 						{% endif %}
 						{% endfor %}

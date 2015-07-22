@@ -92,7 +92,7 @@ a `resource` to retrive some Data from Github API.
             }]);
 {% endhighlight %}
 
-As you know at this point we have the `resource`functions available: 
+As you know at this point we have the `resource`functions available:
 
 {% highlight javascript %}
     { 'get':    {method:'GET'},
@@ -105,7 +105,7 @@ As you know at this point we have the `resource`functions available:
 So the next step is go back to the `homeCtrl.js` and setup some variables to grab the `resource` return.
 
 ### Creating the github controller.
-Now the next step is to create the **controller** to use the **service**, in this case we just edit the `homeCtrl.js` file with the 
+Now the next step is to create the **controller** to use the **service**, in this case we just edit the `homeCtrl.js` file with the
 following code:
 
 {% highlight javascript %}
