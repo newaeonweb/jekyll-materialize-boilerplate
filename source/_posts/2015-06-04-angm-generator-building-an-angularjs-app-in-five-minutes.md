@@ -4,6 +4,7 @@ title: Building an AngularJS app in 5 minutes.
 description: "Learn and Master the angm-generator to build AngularJS application easily."
 category: AngularJS
 tags: [AngularJS]
+keys: [AngularJS, Yeoman Generators, Grunt.js]
 comments: true
 share: true
 ---

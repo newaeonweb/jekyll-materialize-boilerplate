@@ -1,4 +1,5 @@
-title:              Company name goes here
+title:              Fernando Monteiro - Front-end Developer
+description:        Personal Blog and Portfolio for Fernando Monteiro - Front-end Enginner
 
 # Versioning
 current_version: 1.1.0
@@ -8,6 +9,9 @@ author:
   email:            fernando@newaeonweb.com.br
   github:           newaeonweb
   twitter:          newaeonweb
+  facebook:         newaeonweb
+  linkedin:         pub/fernando-monteiro/28/81b/698
+  google_plus:   https://plus.google.com/102311871192373469721
 
 disqus_shortname:   newaeonweb
 

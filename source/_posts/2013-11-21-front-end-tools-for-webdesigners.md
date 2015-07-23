@@ -43,7 +43,7 @@ A primeira vista é desconfortável e pode parecer dificíl aprender, mas existe
 
 #### Ex utilizando SCSS
 
-{% highlight sass %}
+{% highlight scss %}
   .container {
     @include clearfix();
     max-width: $page-width + ($column-gutter * 2);
@@ -65,7 +65,7 @@ A primeira vista é desconfortável e pode parecer dificíl aprender, mas existe
 
 #### CSS compilado:
 
-{% highlight sass %}
+{% highlight css %}
   .container {
     zoom: 1;
     max-width: 980px;
@@ -105,9 +105,9 @@ Durante muito tempo eu utilizei o LESS com o WINLESS(interface gráfica) e com *
 #### Exemplo com Compass:
 
 {% highlight sass %}
-  .simple   { @include border-radius(4px, 4px); }
-  .compound { @include border-radius(2px 5px, 3px 6px); }
-  .crazy    { @include border-radius(1px 3px 5px 7px, 2px 4px 6px 8px)}
+ .simple   { @include border-radius(4px, 4px); }
+ .compound { @include border-radius(2px 5px, 3px 6px); }
+ .crazy    { @include border-radius(1px 3px 5px 7px, 2px 4px 6px 8px)}
 {% endhighlight %}
 
 #### Resultado em CSS:

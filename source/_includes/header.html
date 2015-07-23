@@ -6,17 +6,66 @@
 <html class="no-js" lang="en" data-useragent="Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.2; Trident/6.0)">
 <head>
     <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>{% if page.title %}{{ page.title }} &#8211; {% endif %} {{ site.title }}</title>
-    <meta name="description" content="{% if page.description %}{{ page.description }}{% else %}{{ site.description }}{% endif %}">
-    {% if page.tags %}<meta name="keywords" content="{{ page.tags | join: ', ' }}">{% endif %}
-    <meta name="author" content="{{ site.author.name }}" />
-    <meta name="copyright" content="{{ site.copyright }}"/>
-    <!-- 404 Redirect -->
+	<!-- http://t.co/dKP3o1e -->
+	<meta name="HandheldFriendly" content="True">
+	<meta name="MobileOptimized" content="320">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+	<title>{% if page.title %}{{ page.title }} &#8211; {% endif %}{{ site.title }}</title>
+	{% if page.description %}
+	<meta name="description" content="{{ page.description }}">
+	{% else %}
+	<meta name="description" content="{{ site.description }}">
+	{% endif %}
+	{% if page.keys %}
+	<meta name="keywords" content="{{ page.keys | join: ', ' }}">
+	{% else %}
+	<meta name="keywords" content="Front-end, front-end, developer, html5, css3, javascript, sass, less">
+	{% endif %}
+
+	<!-- Twitter Cards -->
+	{% if site.author.twitter %}
+	{% if page.image.feature %}
+	<meta name="twitter:card" content="summary_large_image">	
+	<meta name="twitter:image" content="{{ site.url }}/assets/images/{{ page.image.feature }}">
+	{% else %}
+	<meta name="twitter:card" content="summary">
+	<meta name="twitter:image" content="{% if page.image.thumb %}{{ site.url }}/assets/images/{{ page.image.thumb }}{% else %}{{ site.url }}/assets/images/{{ site.logo }}{% endif %}">
+	{% endif %}
+	<meta name="twitter:title" content="{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}">
+	{% if page.description %}
+	<meta name="twitter:description" content="{{ page.description }}">
+	{% else %}
+	<meta name="twitter:description" content="{{ site.description }}">
+	{% endif %}
+	<meta name="twitter:creator" content="@{{ site.author.twitter }}">
+	{% endif %}
+
+	<!-- Open Graph -->
+	<meta property="og:locale" content="en_US">
+	<meta property="og:type" content="article">
+	<meta property="og:title" content="{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}">
+	<meta property="og:description" content="{% if page.description %}{{ page.description }}{% else %}{{ site.description }}{% endif %}">
+	<meta property="og:url" content="{{ site.url }}{{ page.url }}">
+	<meta property="og:site_name" content="{{ site.title }}">
+
+	{% if site.google_verify %}<meta name="google-site-verification" content="{{ site.google_verify }}">{% endif %}
+
+	{% capture canonical %}{{ site.url }}{% if site.permalink contains '.html' %}{{ page.url }}{% else %}{{ page.url | remove:'index.html' | strip_slash }}{% endif %}{% endcapture %}
+	<link rel="canonical" href="{{ canonical }}">
+	<link href="{{ site.url }}/feed.xml" type="application/atom+xml" rel="alternate" title="{{ site.title }} Feed">
+	{% if site.author.google_plus %}<link rel="author" href="{{ site.author.google_plus }}?rel=author">{% endif %}
+    
+   
     {% if page.url == "/404.html" %}
+	<!-- 404 Redirect -->
     <meta http-equiv="refresh" content="5; url=/">
+	<!-- /404 Redirect -->
     {% endif %}
-    <!-- /404 Redirect -->
+    
+    
+	
+   
     <link rel="alternate" type="application/rss+xml" title="{{ site.name }}" href="{{ site.url }}/feed.xml">
     <link rel="stylesheet" href="{{ site.url }}/assets/stylesheets/style.css" media="screen,projection"/>
     <link rel="canonical" href="{{ page.url }}" />
