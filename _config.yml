@@ -20,7 +20,7 @@ markdown:           kramdown
 highlighter:        pygments
 
 # Permalinks
-permalink:          pretty
+permalink:          /:categories/:title/
 
 # Server
 source:             ./source
@@ -36,7 +36,7 @@ exclude:            ["sass","scss",".gitignore","README.md","config.codekit"]
 
 ## CUSTOM VARS
 
-#ga_id:             ##-########-###
+google_analytics:   UA-44768500-1
 site_name:          Site name goes here
 site_description:   Simple company description.
 site_copyright:     © All Rights Reserved.
