@@ -24,7 +24,7 @@ permalink:          pretty
 
 # Server
 source:             ./source
-destination:        ./static
+destination:        ./_site
 
 port:               9000
 baseurl:            ""
