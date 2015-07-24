@@ -11,7 +11,7 @@ author:
   twitter:          newaeonweb
   facebook:         newaeonweb
   linkedin:         pub/fernando-monteiro/28/81b/698
-  google_plus:   https://plus.google.com/102311871192373469721
+  google_plus:      https://plus.google.com/102311871192373469721
 
 disqus_shortname:   newaeonweb
 
@@ -28,7 +28,7 @@ destination:        ./_site
 
 port:               9000
 baseurl:            ""
-url:
+url:				"http://www.newaeonweb.com.br"
 
 # exclude this stuff when building the static site
 exclude:            ["sass","scss",".gitignore","README.md","config.codekit"]
