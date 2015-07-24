@@ -30,7 +30,7 @@ Neste exemplo vou utilizar uma maquina com windows 7, mas os passos são quase o
 
 Vamos checar se esta tudo certo, abra o terminal e navegue até a pasta raiz onde esta a pasta `mongodb`, no meu caso é o C:.
 
-{% highlight shell-session %}
+{% highlight Bash Session %}
 	C:\>cd mongodb
 	C:\>mongodb>cd bin
 	C:\>mongodb>cd bin>mongod.exe
@@ -42,7 +42,7 @@ Os comandos acima vão iniciar o Mongodb, conforme a figura abaixo:
 
 Repita os passos acima e desta vez utilize o comando `mongo.exe`:
 
-{% highlight shell-session %}
+{% highlight Bash Session %}
 	C:\>cd mongodb
 	C:\>mongodb>cd bin
 	C:\>mongodb>cd bin>mongo.exe
@@ -56,7 +56,7 @@ Agora sim já podemos iniciar nossa brincadeira, como não especificamos nenhum 
 
 No cmd digite:
 
-{% highlight shell-session %}
+{% highlight Bash Session %}
 	C:\>use novodb
 {% endhighlight %}
 
@@ -70,7 +70,7 @@ Desta maneira criamos nossa nova base chamada `novodb` como podemos ver na image
 
 Um comando muito útil é o `help`, faça um teste e digite em seu terminal:
 
-{% highlight shell-session %}
+{% highlight Bash Session %}
 	C:\>db.novodb.help()
 {% endhighlight %}
 
@@ -84,7 +84,7 @@ Este comando é uma ótima maneira de aprendermos um pouco mais sobre Mongodb, a
 
 Como base de dados e coleções são criadas no momento em que executamos um comando, digite ai no seu terminal:
 
-{% highlight shell-session %}
+{% highlight Bash Session %}
 	C:\>db.bandas.insert({banda: "Metallica"})
 	C:\>db.bandas.insert({banda: "Slayer"})
 {% endhighlight %}
@@ -95,13 +95,13 @@ Com isso criamos a coleção `bandas` e também inserimos dois registros em noss
 
 O comando abaixo serve para recuperarmos o que foi inserido, uma tipo de SELECT * FROM em bancos relacionais, mas muito mais simple:
 
-{% highlight shell-session %}
+{% highlight Bash Session %}
 	C:\>db.bandas.find()
 {% endhighlight %}
 
 Na imagem abaixo, podemos visualizar o resultado do comando, para toda inserção no banco o Mongodb cria um Object_ID para ele, em seguida execute o camando:
 
-{% highlight shell-session %}
+{% highlight Bash Session %}
 	C:\>show collections
 {% endhighlight %}
 
@@ -113,26 +113,26 @@ Logo abaixo da coleção temos o system.indexes, que veremos em uma outra oportu
 
 Para retornar um dado especifico, podemos utilizar o comando:
 
-{% highlight shell-session %}
+{% highlight Bash Session %}
 	C:\>db.bandas.find({banda: "Metallica"})
 {% endhighlight %}
 
 Para atualizar:
 
-{% highlight shell-session %}
+{% highlight Bash Session %}
 	C:\>db.bandas.update({banda: "Metallica"}, {$set: {estilo: "Thrash Metal"}})
 {% endhighlight %}
 
 Aqui atualizamos a banda e incluimos mais um campo, o estilo.
 Caso seja necessario remove-lo podemos utilizar o seguinte comando:
 
-{% highlight shell-session %}
+{% highlight Bash Session %}
 	C:\>db.bandas.update({banda: "Metallica"}, {$unset: {estilo: 1}})
 {% endhighlight %}
 
 E finalmente o DELETE com:
 
-{% highlight shell-session %}
+{% highlight Bash Session %}
 	C:\>db.bandas.remove({banda: "Metallica"})
 {% endhighlight %}
 
@@ -140,7 +140,7 @@ E finalmente o DELETE com:
 
 Se a intenção for deletar a coleção inteira, utilize:
 
-{% highlight shell-session %}
+{% highlight Bash Session %}
 	C:\>db.bandas.drop()
 {% endhighlight %}
 

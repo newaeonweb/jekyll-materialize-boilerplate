@@ -16,7 +16,7 @@ Now is very easy to start a project using **Responsive Boilerplate**, if you alr
 
 > Using Bower Component Manager (Bower.io)
 
-{% highlight shell-session %}
+{% highlight Bash Session %}
 	bower install responsiveboilerplate
 {% endhighlight %}
 
@@ -31,7 +31,7 @@ Also of course if you don't have Node.js you can just clone the repo:
 
 After clone or install through Bower run the command.
 
-{% highlight shell-session %}
+{% highlight Bash Session %}
 	npm install
 {% endhighlight %}
 

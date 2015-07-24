@@ -20,7 +20,7 @@ Last night our Pull Request was accepted.
 
 Now you can install the Snippets very easy, press:
 
-{% highlight shell-session %}
+{% highlight Bash Session %}
   command + shift + P
 {% endhighlight %}
 

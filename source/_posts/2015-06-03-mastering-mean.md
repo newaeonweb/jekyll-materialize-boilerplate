@@ -19,7 +19,7 @@ As everybody knows MEAN stands for MongoDB, Express Framework, AngularJS, Node.j
 It is a great satisfaction to be part of this incredible team of developers.
 Our intention is to evangelize the entire web community and present all the news about the technologies involving this amazing ecosystem.
 
-![Mastering MEAN]({{ site.url }}/assets/images/masteringmean1.png "Mastering MEAN")
+{% include image.html url='/assets/images/masteringmean1.png' alt='Mastering MEAN.' caption='Mastering MEAN course page' %}
 
 >  Full-stack experts and skilled teachers will show you the breadth and depth of the MEAN stack.
 

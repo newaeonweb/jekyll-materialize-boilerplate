@@ -19,7 +19,7 @@ Ele serve para vários tipos de linguagens,editores e IDEs, o que é ótimo.
 
 Segue um exemplo de como utiliza-lo:
 
-{% highlight shell-session %}
+{% highlight Bash Session %}
   	# editorconfig.org
 	root = true
 	[*]

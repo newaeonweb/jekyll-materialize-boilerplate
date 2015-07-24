@@ -16,7 +16,7 @@ body {
 	color: #444;
 }
 main {
-	font-size: 1.2em;
+	font-size: 1.15em;
 }
 
 @font-face {
@@ -130,6 +130,21 @@ blockquote {
     width: 307px;
 }
 
+.post-image {
+	
+	clear: both;
+	display: block;
+	margin: 20px auto 0;
+	text-align: center;
+	
+	figcaption {
+		margin-bottom: 2.5em;
+		max-width: 100%;
+		font-size: 0.8em;
+	}
+
+}
+
 .title {
     text-transform: uppercase;
     font-weight: 600;
@@ -175,7 +190,7 @@ h1.entry-title {
 }
 
 .entry-meta {
-	font-size: 105%;
+	font-size: 100%;
 	color: #666;
 	
 	li {
@@ -189,8 +204,6 @@ h1.entry-title {
 	img {
 			max-width: 100%;
 			height: auto;
-		
-		margin: 25px auto;
 	}
 }
 

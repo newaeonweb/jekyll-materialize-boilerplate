@@ -19,7 +19,7 @@ A principio eles ainda não tem um host onde você possa hospedar o seu blog, pe
 
 Mas vamos ao que interessa, apos baixar e descompactar a versão para sua plataforma, lembrando no meu caso o Ubuntu, vá até o diretório e execute o comando no seu terminal:
 
-{% highlight shell-session %}
+{% highlight javascript %}
 	npm install
 {% endhighlight %}
 
@@ -29,7 +29,7 @@ Mas vamos ao que interessa, apos baixar e descompactar a versão para sua plataf
 
 Feito isso, digite:
 
-{% highlight shell-session %}
+{% highlight javascript %}
 	npm start
 {% endhighlight %}
 
