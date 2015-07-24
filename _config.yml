@@ -20,7 +20,7 @@ markdown:           kramdown
 highlighter:        pygments
 
 # Permalinks
-permalink:          /:categories/:title/
+permalink:          pretty
 
 # Server
 source:             ./source
@@ -28,7 +28,7 @@ destination:        ./_site
 
 port:               9000
 baseurl:            ""
-url:				"http://www.newaeonweb.com.br"
+url:
 
 # exclude this stuff when building the static site
 exclude:            ["sass","scss",".gitignore","README.md","config.codekit"]
