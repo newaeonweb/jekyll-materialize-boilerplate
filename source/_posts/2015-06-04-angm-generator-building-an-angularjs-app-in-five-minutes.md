@@ -13,7 +13,7 @@ share: true
 Learn how to build an AngularJS application using the amazing [generator-angm](http://www.newaeonweb.com.br/generator-angm) as the own name angm is a [Yeoman](http://yeoman.io/) generator to build modular AngularJS apps.
 We will make a step by step to build a Angular app from start to finish.
 
-![Angm-generator]({{ site.url }}/images/angm-logo.png "Angm-generator")
+![Angm-generator]({{ site.url }}/assets/images/angm-logo.png "Angm-generator")
 
 >  Modular Yeoman Generator to scaffold modular AngularJS applications.
 
@@ -54,7 +54,7 @@ I Named the app as `github-finder`.
 
 With this step, we have the basic structure as the following figure:
 
-![generator structure]({{ site.url }}/images/angm-generator.png "Generator Structured AngularJS app")
+![generator structure]({{ site.url }}/assets/images/angm-generator.png "Generator Structured AngularJS app")
 
 As you can see, we already have all we need to start our application, folloing the best practices to develop AngularJS apps.
 
@@ -69,7 +69,7 @@ To check if everything goes well at this point, open your terminal and type""
 
 The previous command starts your default browser and show the welcome screen.
 
-![generator welcome screen]({{ site.url }}/images/generator-welcome.png "Generator welcome screen")
+![generator welcome screen]({{ site.url }}/assets/images/generator-welcome.png "Generator welcome screen")
 
 ### Building the github service.
 On the previous step we saw the application directory structure, on the `home module` folder, let's edit the `homeService.js` file and added
@@ -159,6 +159,6 @@ all the repositories from a user, i used the **twbs** user.
 
 And the final result will be something similar to the following image:
 
-![Service Working]({{ site.url }}/images/github-list.png "Service working")
+![Service Working]({{ site.url }}/assets/images/github-list.png "Service working")
 
 Very simple and ease. Now let's see what we can do to show individual infos on when we click on some repo.

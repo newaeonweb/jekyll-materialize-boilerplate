@@ -94,7 +94,7 @@ Pessoalmente costumo utilizar uma mistura de SMACCS com BEM e OOCSS, para quem n
 SMACSS para organização de diretórios e divisão de responsabilidades e BEM para nomenclatura e OOCSS para estruturar as classes, tudo isso com **LESS**.
 
 Esta é a estrutura que adoto em projetos de larga escala:
-![less]({{ site.url }}/images/less-modular.jpg "SMACSS com LESS")
+![less]({{ site.url }}/assets/images/less-modular.jpg "SMACSS com LESS")
 
 - Base - Ficam todos os arquivos com seletores que não utilizam classes, fonts e resets.
 - Component - Todos os modulos em arquivos individuais.

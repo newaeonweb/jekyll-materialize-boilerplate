@@ -23,7 +23,7 @@ Mas vamos ao que interessa, apos baixar e descompactar a versão para sua plataf
 	npm install
 {% endhighlight %}
 
-![Instalando as dependências do Ghost]({{ site.url }}/images/ghost-installation.png "Instalando o Ghost")
+![Instalando as dependências do Ghost]({{ site.url }}/assets/images/ghost-installation.png "Instalando o Ghost")
 
 >Uma dica, no Ubuntu execute como adminstrador, caso contrário algumas dependências não serão instaladas.
 
@@ -41,7 +41,7 @@ Para acessar a area adminstrativa digite: _http//localhost:2368/ghost_
 
 Insira seu login a senha e comece a blogar.
 
-![Primeiro post em menos de 5 min]({{ site.url }}/images/ghost-welcom-screen.png)
+![Primeiro post em menos de 5 min]({{ site.url }}/assets/images/ghost-welcom-screen.png)
 
 É claro que o foco do Ghost é ser apenas uma plataforma de Blog, então não espere todos os recursos de um CMS completo.
 Para quem curte escrever será uma ótima ferramenta.

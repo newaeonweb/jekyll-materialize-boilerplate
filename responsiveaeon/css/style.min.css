@@ -1,0 +1,24 @@
+body{margin:0;min-height:100%;-webkit-font-smoothing:antialiased;font-smoothing:antialiased;text-rendering:optimizeLegibility;background:url('../images/white_texture.jpg') 0 1.1875em;font-family:'Crimson Text',Arial,sans-serif}
+blockquote,q{quotes:none}blockquote:before,blockquote:after,q:before,q:after{content:'';content:none}blockquote,q,cite{font-style:italic}
+blockquote{padding-left:1.5em;border-left:3px solid #ccc}blockquote>p{padding:0}h1{margin:0;font-size:2.5em;line-height:1.2em;margin-bottom:.4em}h2{margin:0;font-size:2em;line-height:1em;margin-bottom:.5em}
+h3{margin:0;font-size:1.5em;line-height:1.3333333333333333333333333333333em;margin-bottom:.6667em}h4{margin:0;font-size:1.0em;line-height:1em;margin-bottom:1em}
+h5{margin:0;font-size:.835em;line-height:1.1428571428571428571428571428571em;margin-bottom:1.1428571428571428571428571428571em}h6{margin:0;font-size:.80em;line-height:1.3333333333333333333333333333333em;margin-bottom:1.3333333333333333333333333333333em}
+p,ul,blockquote,pre,td,th,label{margin:0;font-size:1em;line-height:1.5em;margin-bottom:1.5em}small,p.small{margin:0;font-size:.875em;line-height:1.7142857142857142857142857142857em;margin-bottom:1.7142857142857142857142857142857em}
+ul,ol{margin-bottom:18px;padding-left:10px}ul{list-style:none outside}ol{list-style:decimal}ol,ul.square,ul.circle,ul.disc{margin-left:30px}ul.square{list-style:square outside}
+ul.circle{list-style:circle outside}ul.disc{list-style:disc outside}li{margin-bottom:0}ul.large li{line-height:21px}nav{width:100%;float:left;margin:0 0 .2em 0;padding:0;list-style:none}
+nav li{float:left;margin-right:20px}a{text-decoration:none;color:#ff7c00}a:hover{text-decoration:none}a:focus{outline:thin dotted}a:hover,a:active{outline:0}
+table{border-collapse:collapse;border-spacing:0;margin-bottom:1.5em}th{text-align:left}tr,th,td{padding-right:1.5em;border-bottom:0 solid #333}form{margin:0}
+fieldset{border:0;padding:0}textarea{overflow:auto;vertical-align:top}legend{*margin-left:-.75em}button,input,select,textarea{vertical-align:baseline;*vertical-align:middle}
+button,input{line-height:normal;*overflow:visible}button,input[type="button"],input[type="reset"],input[type="submit"]{cursor:pointer;-webkit-appearance:button}
+input[type="checkbox"],input[type="radio"]{box-sizing:border-box}input[type="search"]{-webkit-appearance:textfield;-moz-box-sizing:content-box;-webkit-box-sizing:content-box;box-sizing:content-box}
+input[type="search"]::-webkit-search-decoration{-webkit-appearance:none}button::-moz-focus-inner,input::-moz-focus-inner{border:0;padding:0}
+figure{margin:0}img,object,embed,video{max-width:100%;_width:100%}img{border:0;-ms-interpolation-mode:bicubic}svg:not(:root){overflow:hidden}.clear:before,.clear:after{content:"";display:table}
+.clear:after{clear:both}.clear{zoom:1}.light{color:#ff7c00}.lightgreen{color:#73880a}.center{text-align:center}.left{text-align:left}.right{text-align:right}
+.justify{text-align:justify}header{width:100%;background-color:#e2e2e2;background-color:rgba(204,204,204,0.3);float:left;padding:20px 0}.slogan{margin-bottom:40px}
+.slogan h1{font-size:3em;text-shadow:1px 1px 0 #FFF}.logo{margin:20px auto}samp{font-size:1em;line-height:1.5em;margin-bottom:1.5em;font-family:Menlo,Consolas,'DejaVu Sans Mono',Monaco,monospace}
+nav a{color:#999}nav a:hover{color:#73880a}.features{background-color:#fff;padding:20px auto;min-height:200px;border-top:1px solid #bbb}.download{background-color:#fff;float:left;width:100%;padding-top:30px;margin-top:-25px;s}
+.html5,.css3,.jquery{padding-top:30px}footer{background-color:#e2e2e2;background-color:rgba(204,204,204,0.3);float:left;width:100%;padding:10px 0}.btn{margin:20px 0}
+.download_button{-moz-box-shadow:inset 0 1px 0 0 #a4e271;-webkit-box-shadow:inset 0 1px 0 0 #a4e271;box-shadow:inset 0 1px 0 0 #a4e271;background-color:#89c403;-moz-border-radius:6px;-webkit-border-radius:6px;border-radius:6px;border:1px solid #74b807;display:inline-block;color:#fff;font-family:arial;font-size:21px;font-weight:bold;padding:20px 54px;text-decoration:none;text-shadow:1px 1px 0 #528009;behavior:url(js/pie.htc)}
+.download_button:hover{background-color:#77a809}.download_button:active{position:relative;top:1px}.pic{margin:0 5px 5px 0}.badge{position:absolute;top:45px;right:0;border:0}
+.badge img{filter:alpha(opacity=40);-moz-opacity:.4;-khtml-opacity:.4;opacity:.4}@media screen and (max-width:320px){h1{font-size:1.2em}.badge{display:none}
+pre{font-size:.835em}}

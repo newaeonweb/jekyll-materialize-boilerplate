@@ -12,7 +12,7 @@ Dando continuidade a serie de Posts sobre ferramentas para Webdesigners, hoje se
 
 Ele é muito similar ao **Prepros**, porém voltado apenas para compilar arquivos SASS e SCSS e utilizar o Compass. Tem uma interface muito facíl de utilizar e é possivel configurar os caminhos das pastas, como ilustra a imagem abaixo.
 
-![diretórios]({{ site.url }}/images/scout.jpg "Interface do Scout")
+![diretórios]({{ site.url }}/assets/images/scout.jpg "Interface do Scout")
 
 Mais informações podem ser obtidas [aqui](http://mhs.github.io/scout-app/).
 

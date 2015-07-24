@@ -15,7 +15,7 @@ Sim ele é muito poderoso, mas não muito intuitivo para quem não tem muita int
 
 Uma alternativa a altura é o **Prepros**, uma tipo de gerenciador de tarefas com interface gráfica, grátis e muito facíl de utilizar.
 
-![Prepros]({{ site.url }}/images/prepros.jpg "Interface do Prepros")
+![Prepros]({{ site.url }}/assets/images/prepros.jpg "Interface do Prepros")
 
 Mais informações podem ser obtidas [aqui](http://alphapixels.com/prepros).
 

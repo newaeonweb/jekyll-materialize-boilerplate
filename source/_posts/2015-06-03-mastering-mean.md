@@ -19,7 +19,7 @@ As everybody knows MEAN stands for MongoDB, Express Framework, AngularJS, Node.j
 It is a great satisfaction to be part of this incredible team of developers.
 Our intention is to evangelize the entire web community and present all the news about the technologies involving this amazing ecosystem.
 
-![Mastering MEAN]({{ site.url }}/images/masteringmean1.png "Mastering MEAN")
+![Mastering MEAN]({{ site.url }}/assets/images/masteringmean1.png "Mastering MEAN")
 
 >  Full-stack experts and skilled teachers will show you the breadth and depth of the MEAN stack.
 
@@ -34,7 +34,7 @@ You can find lessons from: **Amos Q. Haviv**, **Luke Madera**, **Matt Frisbie**,
 ### A lot of lessons.
 Over 250 lessons about MEAN stack, covering from the basics to advanced stuff like: Single Page Development, Angular development and mnay more.
 
-![Mastering MEAN]({{ site.url }}/images/fernando-monteiro-lessons.png "Fernando Monteiro Lessons")
+![Mastering MEAN]({{ site.url }}/assets/images/fernando-monteiro-lessons.png "Fernando Monteiro Lessons")
 
 > Learn and Master the full MEAN stack with over 250 lessons from 50 world class developers.
 

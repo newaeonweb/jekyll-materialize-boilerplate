@@ -14,7 +14,7 @@ For those who don't know/use PackageControl, check this: [How to install](https:
 
 Last night our Pull Request was accepted.
 
-![ResponsiveBoilerplate]({{ site.url }}/images/packagecontrol2.png "Pull Request Merged")
+![ResponsiveBoilerplate]({{ site.url }}/assets/images/packagecontrol2.png "Pull Request Merged")
 
 # How to use
 
@@ -27,7 +27,7 @@ Now you can install the Snippets very easy, press:
 To open the search box.
 type: _ResponsiveBoilerplate_
 
-![ResponsiveBoilerplate]({{ site.url }}/images/packagecontrol-responsiveboilerplate.png "Search for ResponsiveBoilerplate")
+![ResponsiveBoilerplate]({{ site.url }}/assets/images/packagecontrol-responsiveboilerplate.png "Search for ResponsiveBoilerplate")
 
 Click and done!
 

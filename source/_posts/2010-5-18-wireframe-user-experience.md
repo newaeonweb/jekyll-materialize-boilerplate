@@ -19,13 +19,13 @@ Por se tratar de uma aplicação antiga e como muito produtos e usuários cadast
 
 O resultado ficou acima do esperado, e acabou sendo publicado no [Wireframeshowcase.com](http://www.wireframeshowcase.com/).
 
-![wireframe paranoid]({{ site.url }}/images/paranoid1.jpg "Wireframe Paranoid")
+![wireframe paranoid]({{ site.url }}/assets/images/paranoid1.jpg "Wireframe Paranoid")
 
 Wireframeshowcase é mantido pela empresa do Balsamiq e é também um recurso muito interessante para pesquisa e aprendizado.
 
 Este foi o resultado completo:
 
-![Site Finalizado]({{ site.url }}/images/paranoid2.jpg "Wireframe Paranoid Finalizado")
+![Site Finalizado]({{ site.url }}/assets/images/paranoid2.jpg "Wireframe Paranoid Finalizado")
 
 O assunto **User Experience** ainda é relativamente novo no Brasil, mas já é levado a serio nos paises de primeiro mundo.
 Aqui este profissional além de poucos recursos para aprendizado, não é reconhecido como essencial em um processo de desenvolvimento.

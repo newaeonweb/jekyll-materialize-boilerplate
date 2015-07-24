@@ -38,7 +38,7 @@ Vamos checar se esta tudo certo, abra o terminal e navegue até a pasta raiz ond
 
 Os comandos acima vão iniciar o Mongodb, conforme a figura abaixo:
 
-![cmd mongodb]({{ site.url }}/images/mongodb1.png "cmd mongodb")
+![cmd mongodb]({{ site.url }}/assets/images/mongodb1.png "cmd mongodb")
 
 Repita os passos acima e desta vez utilize o comando `mongo.exe`:
 
@@ -50,7 +50,7 @@ Repita os passos acima e desta vez utilize o comando `mongo.exe`:
 
 Os comandos acima iniciam o shell do Mongodb, conforme a figura abaixo:
 
-![cmd mongodb]({{ site.url }}/images/mongodb2.png "cmd mongodb")
+![cmd mongodb]({{ site.url }}/assets/images/mongodb2.png "cmd mongodb")
 
 Agora sim já podemos iniciar nossa brincadeira, como não especificamos nenhum base de dados ainda, note que o shell inicia o Mongodb em uma base chamada `test`, você pode usa-la para estes exercicios básicos, entretanto vamos criar uma nova base para pegarmos alguma intimidade com o Mongodb.
 
@@ -62,7 +62,7 @@ No cmd digite:
 
 Desta maneira criamos nossa nova base chamada `novodb` como podemos ver na imagem abaixo:
 
-![cmd mongodb]({{ site.url }}/images/mongodb3.png "cmd mongodb")
+![cmd mongodb]({{ site.url }}/assets/images/mongodb3.png "cmd mongodb")
 
 > Note que não foi usado nenhum comando além do `use` para criarmos nossa base, tão pouco precisamos executar algum comando para fazer a troca do `test` para `novodb`.
 
@@ -76,7 +76,7 @@ Um comando muito útil é o `help`, faça um teste e digite em seu terminal:
 
 Este comando é uma ótima maneira de aprendermos um pouco mais sobre Mongodb, ai estão todos os comandos que podemos utilizar em nossas consultas e ações no banco.
 
-![cmd mongodb]({{ site.url }}/images/mongodb4.png "cmd mongodb")
+![cmd mongodb]({{ site.url }}/assets/images/mongodb4.png "cmd mongodb")
 
 > O comando help() pode ser utilizado tanto em base de dados como em coleções.
 
@@ -107,7 +107,7 @@ Na imagem abaixo, podemos visualizar o resultado do comando, para toda inserçã
 
 Agora podemos ver a coleção chamada bandas também criada.
 
-![cmd mongodb]({{ site.url }}/images/mongodb5.png "cmd mongodb")
+![cmd mongodb]({{ site.url }}/assets/images/mongodb5.png "cmd mongodb")
 
 Logo abaixo da coleção temos o system.indexes, que veremos em uma outra oportunidade.
 

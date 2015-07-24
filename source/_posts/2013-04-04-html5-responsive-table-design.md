@@ -17,7 +17,7 @@ esteja em alta há algum tempo, ainda temos muitas dificuldades em relação a q
 dai surgiu a ideia de escrever um livro que venha suprir esta lacuna.
 Porem direcionado especificamente a construção e exibição de dados tabulares em smartphones.
 
-![HTML5 Responsive Table Design]({{ site.url }}/images/html5responsivetable.jpg "HTML5 Responsive Table Design")
+![HTML5 Responsive Table Design]({{ site.url }}/assets/images/html5responsivetable.jpg "HTML5 Responsive Table Design")
 
 É muito difícil escrever uma resenha sobre algo que você mesmo escreveu, então vou postar alguns registros
 da abrangência do livro.
@@ -28,22 +28,22 @@ Você pode encontrá-lo em diversas lojas virtuais e em vários formatos.
 
 # Amazon UK - Impresso e digital
 
-![Amazon UK]({{ site.url }}/images/html5-amazon-uk.png "Amazon UK")
+![Amazon UK]({{ site.url }}/assets/images/html5-amazon-uk.png "Amazon UK")
 
 # Livrarias Cultura - Digital
 
-![Livrarias Cultura]({{ site.url }}/images/html5-livrarias-cultura.png "Livrarias Cultura")
+![Livrarias Cultura]({{ site.url }}/assets/images/html5-livrarias-cultura.png "Livrarias Cultura")
 
 # Amazon USA - Impresso e digital
 
-![Amazon USA]({{ site.url }}/images/html5-amazon-us.png "Amazon USA")
+![Amazon USA]({{ site.url }}/assets/images/html5-amazon-us.png "Amazon USA")
 
 > Responsive web design is a large topic and it is nice to have it broken down into bit sized pieces. In the end, you can't really make much use of the presentation layer of responsive web design (CSS) until you have something to put the presentation on (layout) and how to do layout is the focus of this book.
 
 # O Really - Digital
 
-![O Really]({{ site.url }}/images/html5-oreally.png "O Really")
+![O Really]({{ site.url }}/assets/images/html5-oreally.png "O Really")
 
 # Packt Pub - Impresso e Digital
 
-![Packt Publishing]({{ site.url }}/images/html5-packt.png "Packt UK")
+![Packt Publishing]({{ site.url }}/assets/images/html5-packt.png "Packt UK")
