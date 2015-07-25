@@ -26,7 +26,7 @@
 	<!-- Twitter Cards -->
 	{% if site.author.twitter %}
 	{% if page.image.feature %}
-	<meta name="twitter:card" content="summary_large_image">	
+	<meta name="twitter:card" content="summary_large_image">
 	<meta name="twitter:image" content="{{ site.url }}/assets/images/{{ page.image.feature }}">
 	{% else %}
 	<meta name="twitter:card" content="summary">
@@ -76,7 +76,7 @@
             <div class="indeterminate cyan darken-3"></div>
         </div>
     </div>
-    <nav class="blue-grey darken-2 waves-effect waves-light" role="navigation">
+    <nav class="blue-grey darken-2" role="navigation">
         <div class="nav-wrapper container">
             <ul class="nav-center hide-on-med-and-down light">
                 <li {% if page.url == '/' %}class="active" {% endif %}><a href="/">Home</a></li>
@@ -84,13 +84,12 @@
                 <li {% if page.url == '/projects/' %}class="active" {% endif %}><a href="/projects/">Projects</a></li>
                 <li {% if page.url == '/blog/' %}class="active" {% endif %}><a href="/blog/">Articles</a></li>
             </ul>
-
-			<ul id="nav-mobile" class="side-nav fixed">
-				<li {% if page.url == '/' %}class="active" {% endif %}><a href="/">Home</a></li>
-				<li {% if page.url == '/about/' %}class="active" {% endif %}><a href="/about/">About</a></li>
-				<li {% if page.url == '/projects/' %}class="active" {% endif %}><a href="/projects/">Projects</a></li>
-				<li {% if page.url == '/blog/' %}class="active" {% endif %}><a href="/blog/">Articles</a></li>
+            <ul id="nav-mobile" class="side-nav">
+                <li {% if page.url == '/' %}class="active" {% endif %}><a href="/">Home</a></li>
+                <li {% if page.url == '/about/' %}class="active" {% endif %}><a href="/about/">About</a></li>
+                <li {% if page.url == '/projects/' %}class="active" {% endif %}><a href="/projects/">Projects</a></li>
+                <li {% if page.url == '/blog/' %}class="active" {% endif %}><a href="/blog/">Articles</a></li>
             </ul>
-			<a href="#" data-activates="nav-mobile" class="button-collapse"><i class="mdi-navigation-menu"></i></a>
+            <a href="#" data-activates="nav-mobile" class="button-collapse"><i class="mdi-navigation-menu"></i></a>
         </div>
     </nav>

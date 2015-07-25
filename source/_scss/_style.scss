@@ -16,7 +16,7 @@ body {
 	color: #444;
 }
 main {
-	font-size: 1.15em;
+
 }
 
 @font-face {
@@ -80,8 +80,6 @@ blockquote {
 
     p {
         text-align: justify;
-        font-weight: 300;
-        font-size: 110%;
     }
 }
 
@@ -131,12 +129,13 @@ blockquote {
 }
 
 .post-image {
-	
+
 	clear: both;
 	display: block;
 	margin: 20px auto 0;
 	text-align: center;
-	
+	box-shadow: 1px 1px 4px #8E8E8E;
+
 	figcaption {
 		margin-bottom: 2.5em;
 		max-width: 100%;
@@ -192,7 +191,7 @@ h1.entry-title {
 .entry-meta {
 	font-size: 100%;
 	color: #666;
-	
+
 	li {
 		display: inline;
 		margin-right: 10px;
@@ -200,7 +199,7 @@ h1.entry-title {
 }
 
 .card-content {
-	
+
 	img {
 			max-width: 100%;
 			height: auto;
